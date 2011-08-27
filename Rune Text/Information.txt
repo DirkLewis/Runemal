@@ -1,0 +1,42 @@
+Runemal is a Rune casting application.  It is a bag of Rune stones that you can carry and use anywhere any time.  We went to great lengths to make this as true to a physical Rune set.  You manipulate the Runes at every stage.
+
+There are four sections to Runemal:
+
+Odin's Runes:
+
+The intense stare of Odin looks upon you from this first tab button.
+
+This page offers you three buttons that represent fields upon which to cast your Runes.  One, Three, and Six Rune fields are supported.  The more Runes used in a cast the more information you will infer.
+
+On each Field page you have labeled green outlines that represent where you must place your runes.  The labels let your know what each position represents within a spread.
+
+At the top of the field page are three buttons:
+
+Back:
+Takes you back to the field selection page.
+
+Reveal:
+Reveal turns the Runes over and allows you to inspect the spread.  Once a Rune is revealed it can not be manipulated any further.
+
+Read:
+The Read button "flips" to a new screen where you can read about each Rune in the current spread.  It focuses on the Runes that you just laid out, and a summary of what the Rune means at that time is presented.
+
+Rune Bag:
+Pull a Rune from your bag by tapping the bag or "shaking the bag".  The Rune gets placed on the "Your Draw" location.  Touch the Rune and move it to which ever position you desire.  Remember you are in control of your fates.
+
+Once the Rune has "Clicked" into a location you can touch it again and reverse it if you like or move it to a different position.  You do not know if the Rune was drawn Reversed or Upright so by turning it you could be Up-righting a Reversed Rune.
+
+Rune Library:
+
+The Tome of Knowledge represents the Rune Library.  This library shows your each Rune name and image.  By touching the disclosure button you will be presented with every detail about the chosen Rune.  This will be invaluable as your study your spreads for their deepest meanings.
+
+Rune Usage:
+
+This page is represented by the Tree of Knowledge and gives you an understanding of Runemal.
+
+Settings:
+
+You can use the Settings page to turn off the background music and or the sound effects.
+
+
+

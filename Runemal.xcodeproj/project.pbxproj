@@ -1,0 +1,1207 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* RunemalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RunemalAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		CE04EFB90F9B839E00760398 /* Breakthrough.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EF9F0F9B839E00760398 /* Breakthrough.png */; };
+		CE04EFBA0F9B839E00760398 /* Constraint.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFA00F9B839E00760398 /* Constraint.png */; };
+		CE04EFBB0F9B839E00760398 /* Defence.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFA10F9B839E00760398 /* Defence.png */; };
+		CE04EFBC0F9B839E00760398 /* Diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFA20F9B839E00760398 /* Diamond.png */; };
+		CE04EFBD0F9B839E00760398 /* Disruption.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFA30F9B839E00760398 /* Disruption.png */; };
+		CE04EFBE0F9B839E00760398 /* Fertility.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFA40F9B839E00760398 /* Fertility.png */; };
+		CE04EFBF0F9B839E00760398 /* Flow.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFA50F9B839E00760398 /* Flow.png */; };
+		CE04EFC00F9B839E00760398 /* Gateway.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFA60F9B839E00760398 /* Gateway.png */; };
+		CE04EFC10F9B839E00760398 /* Growth.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFA70F9B839E00760398 /* Growth.png */; };
+		CE04EFC20F9B839E00760398 /* Harvest.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFA80F9B839E00760398 /* Harvest.png */; };
+		CE04EFC30F9B839E00760398 /* Initiation.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFA90F9B839E00760398 /* Initiation.png */; };
+		CE04EFC40F9B839E00760398 /* Journey.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFAA0F9B839E00760398 /* Journey.png */; };
+		CE04EFC50F9B839E00760398 /* Joy.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFAB0F9B839E00760398 /* Joy.png */; };
+		CE04EFC60F9B839E00760398 /* Movement.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFAC0F9B839E00760398 /* Movement.png */; };
+		CE04EFC70F9B839E00760398 /* Opening.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFAD0F9B839E00760398 /* Opening.png */; };
+		CE04EFC80F9B839E00760398 /* Partnership.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFAE0F9B839E00760398 /* Partnership.png */; };
+		CE04EFC90F9B839E00760398 /* Possessions.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFAF0F9B839E00760398 /* Possessions.png */; };
+		CE04EFCA0F9B839E00760398 /* Protection.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFB00F9B839E00760398 /* Protection.png */; };
+		CE04EFCB0F9B839E00760398 /* Retreat.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFB10F9B839E00760398 /* Retreat.png */; };
+		CE04EFCC0F9B839E00760398 /* Self.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFB20F9B839E00760398 /* Self.png */; };
+		CE04EFCD0F9B839E00760398 /* Signals.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFB30F9B839E00760398 /* Signals.png */; };
+		CE04EFCE0F9B839E00760398 /* Standstill.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFB40F9B839E00760398 /* Standstill.png */; };
+		CE04EFCF0F9B839E00760398 /* Strength.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFB50F9B839E00760398 /* Strength.png */; };
+		CE04EFD00F9B839E00760398 /* Unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFB60F9B839E00760398 /* Unknown.png */; };
+		CE04EFD10F9B839E00760398 /* Warrior.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFB70F9B839E00760398 /* Warrior.png */; };
+		CE04EFD20F9B839E00760398 /* Wholeness.png in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFB80F9B839E00760398 /* Wholeness.png */; };
+		CE04EFEF0F9B911800760398 /* OneRuneCastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFED0F9B911800760398 /* OneRuneCastView.xib */; };
+		CE04EFF00F9B911800760398 /* ThreeRuneCastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE04EFEE0F9B911800760398 /* ThreeRuneCastView.xib */; };
+		CE04F01E0F9B972100760398 /* RuneReadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE04F01D0F9B972100760398 /* RuneReadView.xib */; };
+		CE04F0260F9B992E00760398 /* RuneReadingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE04F0250F9B992E00760398 /* RuneReadingsViewController.m */; };
+		CE04F0430F9B9AC300760398 /* RuneReadPagesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE04F0420F9B9AC300760398 /* RuneReadPagesView.xib */; };
+		CE04F1B80F9BC5DC00760398 /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE04F1B70F9BC5DC00760398 /* SwitchViewController.m */; };
+		CE07FEB50FA2028F004FE5E0 /* Pouch.png in Resources */ = {isa = PBXBuildFile; fileRef = CE07FEB40FA2028F004FE5E0 /* Pouch.png */; };
+		CE07FEC80FA24AA4004FE5E0 /* Pouch Highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = CE07FEC70FA24AA4004FE5E0 /* Pouch Highlight.png */; };
+		CE2D25BF0FA4AAC300C9642B /* RuneClick.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE2D25BD0FA4AAC300C9642B /* RuneClick.wav */; };
+		CE2D25C40FA4AC2C00C9642B /* Shake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE2D25C30FA4AC2C00C9642B /* Shake.mp3 */; };
+		CE2D25EF0FA4AD7B00C9642B /* RuneClick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE2D25EE0FA4AD7B00C9642B /* RuneClick.mp3 */; };
+		CE4DA8640F99F9C9009D14F3 /* Arrow next.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4DA8620F99F9C9009D14F3 /* Arrow next.png */; };
+		CE4DA8650F99F9C9009D14F3 /* Arrow Previous.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4DA8630F99F9C9009D14F3 /* Arrow Previous.png */; };
+		CE4DA86A0F99FB5B009D14F3 /* BloodWood 320x370.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4DA8690F99FB5B009D14F3 /* BloodWood 320x370.png */; };
+		CE4DA87F0F9A052D009D14F3 /* BloodWood 320x70.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4DA87E0F9A052D009D14F3 /* BloodWood 320x70.png */; };
+		CE4DA8F20F9A14CA009D14F3 /* BloodWood 320x411.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4DA8F10F9A14CA009D14F3 /* BloodWood 320x411.png */; };
+		CE4DA8F40F9A14F7009D14F3 /* SixRuneCastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4DA8F30F9A14F7009D14F3 /* SixRuneCastView.xib */; };
+		CE4DA8F90F9A17C3009D14F3 /* RuneCastingController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4DA8F80F9A17C3009D14F3 /* RuneCastingController.m */; };
+		CE4DA90B0F9A19FF009D14F3 /* Green Rune Outline.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4DA90A0F9A19FF009D14F3 /* Green Rune Outline.png */; };
+		CE4DA96E0F9A3377009D14F3 /* DragView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4DA96D0F9A3377009D14F3 /* DragView.m */; };
+		CE4DAA370F9A513A009D14F3 /* RuneBackTouched.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4DAA360F9A513A009D14F3 /* RuneBackTouched.png */; };
+		CE622A020F9CB2EC00B2BD11 /* SwitchBoardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE622A010F9CB2EC00B2BD11 /* SwitchBoardView.xib */; };
+		CE622A070F9CB3C700B2BD11 /* SwitchBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE622A060F9CB3C700B2BD11 /* SwitchBoardViewController.m */; };
+		CE8D33740FA377FB000EEF15 /* Pouch 50x70.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8D33720FA377FB000EEF15 /* Pouch 50x70.png */; };
+		CE8D33750FA377FB000EEF15 /* Pouch Highlight 50x70.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8D33730FA377FB000EEF15 /* Pouch Highlight 50x70.png */; };
+		CE8D33B50FA4948A000EEF15 /* BagShakeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8D33B40FA4948A000EEF15 /* BagShakeController.m */; };
+		CE9307370F9E09A700A064DA /* Constraint Rev.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE93070C0F9E09A700A064DA /* Constraint Rev.txt */; };
+		CE9307380F9E09A700A064DA /* Flow Rev.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE93070D0F9E09A700A064DA /* Flow Rev.txt */; };
+		CE9307390F9E09A700A064DA /* Gateway Rev.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE93070E0F9E09A700A064DA /* Gateway Rev.txt */; };
+		CE93073A0F9E09A700A064DA /* Growth Rev.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE93070F0F9E09A700A064DA /* Growth Rev.txt */; };
+		CE93073B0F9E09A700A064DA /* Initiation Rev.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307100F9E09A700A064DA /* Initiation Rev.txt */; };
+		CE93073C0F9E09A700A064DA /* Journey Rev.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307110F9E09A700A064DA /* Journey Rev.txt */; };
+		CE93073D0F9E09A700A064DA /* Joy Rev.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307120F9E09A700A064DA /* Joy Rev.txt */; };
+		CE93073E0F9E09A700A064DA /* Movement Rev.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307130F9E09A700A064DA /* Movement Rev.txt */; };
+		CE93073F0F9E09A700A064DA /* NoReverse.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307140F9E09A700A064DA /* NoReverse.txt */; };
+		CE9307400F9E09A700A064DA /* Opening Rev.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307150F9E09A700A064DA /* Opening Rev.txt */; };
+		CE9307410F9E09A700A064DA /* Possessions Rev.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307160F9E09A700A064DA /* Possessions Rev.txt */; };
+		CE9307420F9E09A700A064DA /* Protection Rev.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307170F9E09A700A064DA /* Protection Rev.txt */; };
+		CE9307430F9E09A700A064DA /* Retreat Rev.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307180F9E09A700A064DA /* Retreat Rev.txt */; };
+		CE9307440F9E09A700A064DA /* Signals Rev.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307190F9E09A700A064DA /* Signals Rev.txt */; };
+		CE9307450F9E09A700A064DA /* Strength Rev.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE93071A0F9E09A700A064DA /* Strength Rev.txt */; };
+		CE9307460F9E09A700A064DA /* The Self Rev.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE93071B0F9E09A700A064DA /* The Self Rev.txt */; };
+		CE9307470F9E09A700A064DA /* Warrior Rev.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE93071C0F9E09A700A064DA /* Warrior Rev.txt */; };
+		CE9307480F9E09A700A064DA /* Breakthrough Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE93071E0F9E09A700A064DA /* Breakthrough Up.txt */; };
+		CE9307490F9E09A700A064DA /* Constraint Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE93071F0F9E09A700A064DA /* Constraint Up.txt */; };
+		CE93074A0F9E09A700A064DA /* Defence Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307200F9E09A700A064DA /* Defence Up.txt */; };
+		CE93074B0F9E09A700A064DA /* Disruption Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307210F9E09A700A064DA /* Disruption Up.txt */; };
+		CE93074C0F9E09A700A064DA /* Fertility Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307220F9E09A700A064DA /* Fertility Up.txt */; };
+		CE93074D0F9E09A700A064DA /* Flow Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307230F9E09A700A064DA /* Flow Up.txt */; };
+		CE93074E0F9E09A700A064DA /* Gateway Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307240F9E09A700A064DA /* Gateway Up.txt */; };
+		CE93074F0F9E09A700A064DA /* Growth Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307250F9E09A700A064DA /* Growth Up.txt */; };
+		CE9307500F9E09A700A064DA /* Harvest Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307260F9E09A700A064DA /* Harvest Up.txt */; };
+		CE9307510F9E09A700A064DA /* Initiation Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307270F9E09A700A064DA /* Initiation Up.txt */; };
+		CE9307520F9E09A700A064DA /* Journey Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307280F9E09A700A064DA /* Journey Up.txt */; };
+		CE9307530F9E09A700A064DA /* Joy Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307290F9E09A700A064DA /* Joy Up.txt */; };
+		CE9307540F9E09A700A064DA /* Movement Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE93072A0F9E09A700A064DA /* Movement Up.txt */; };
+		CE9307550F9E09A700A064DA /* Opening Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE93072B0F9E09A700A064DA /* Opening Up.txt */; };
+		CE9307560F9E09A700A064DA /* Partnership Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE93072C0F9E09A700A064DA /* Partnership Up.txt */; };
+		CE9307570F9E09A700A064DA /* Possessions Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE93072D0F9E09A700A064DA /* Possessions Up.txt */; };
+		CE9307580F9E09A700A064DA /* Protection Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE93072E0F9E09A700A064DA /* Protection Up.txt */; };
+		CE9307590F9E09A700A064DA /* Retreat Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE93072F0F9E09A700A064DA /* Retreat Up.txt */; };
+		CE93075A0F9E09A700A064DA /* Signals Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307300F9E09A700A064DA /* Signals Up.txt */; };
+		CE93075B0F9E09A700A064DA /* Standstill Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307310F9E09A700A064DA /* Standstill Up.txt */; };
+		CE93075C0F9E09A700A064DA /* Strength Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307320F9E09A700A064DA /* Strength Up.txt */; };
+		CE93075D0F9E09A700A064DA /* The Self Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307330F9E09A700A064DA /* The Self Up.txt */; };
+		CE93075E0F9E09A700A064DA /* Unknowable Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307340F9E09A700A064DA /* Unknowable Up.txt */; };
+		CE93075F0F9E09A700A064DA /* Warrior Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307350F9E09A700A064DA /* Warrior Up.txt */; };
+		CE9307600F9E09A700A064DA /* Wholeness Up.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9307360F9E09A700A064DA /* Wholeness Up.txt */; };
+		CE9308A00F9E3E1700A064DA /* Knowledge Tree.png in Resources */ = {isa = PBXBuildFile; fileRef = CE93089F0F9E3E1700A064DA /* Knowledge Tree.png */; };
+		CE9308A30F9E425800A064DA /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9308A20F9E425800A064DA /* test.png */; };
+		CE9308A50F9E4D9F00A064DA /* The Book.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9308A40F9E4D9F00A064DA /* The Book.png */; };
+		CE9308A90F9E521100A064DA /* Odin.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9308A80F9E521100A064DA /* Odin.png */; };
+		CE9308B10F9E5F0A00A064DA /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9308B00F9E5F0A00A064DA /* info.png */; };
+		CE9308B50F9E64B700A064DA /* RuneUsageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9308B40F9E64B700A064DA /* RuneUsageController.m */; };
+		CE9308B90F9E655700A064DA /* RuneUsage.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9308B80F9E655700A064DA /* RuneUsage.txt */; };
+		CE9308BE0F9E6A8100A064DA /* RunemalInformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9308BD0F9E6A8100A064DA /* RunemalInformationController.m */; };
+		CE9308C00F9E6AFC00A064DA /* Information.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9308BF0F9E6AFC00A064DA /* Information.txt */; };
+		CE9309A10F9E967200A064DA /* st3.aiff in Resources */ = {isa = PBXBuildFile; fileRef = CE9309A00F9E967200A064DA /* st3.aiff */; };
+		CE9309B10F9F481600A064DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9309B00F9F481600A064DA /* Default.png */; };
+		CE9309F00F9F51CA00A064DA /* Desktop icon 57.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9309EF0F9F51CA00A064DA /* Desktop icon 57.png */; };
+		CE930ACA0F9F6CEC00A064DA /* st1.aiff in Resources */ = {isa = PBXBuildFile; fileRef = CE930AC70F9F6CEC00A064DA /* st1.aiff */; };
+		CE930ACB0F9F6CEC00A064DA /* st2.aiff in Resources */ = {isa = PBXBuildFile; fileRef = CE930AC80F9F6CEC00A064DA /* st2.aiff */; };
+		CE930ACC0F9F6CEC00A064DA /* st4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = CE930AC90F9F6CEC00A064DA /* st4.aiff */; };
+		CE930B140F9F8AD500A064DA /* Constraint RevSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AEA0F9F8AD500A064DA /* Constraint RevSum.txt */; };
+		CE930B150F9F8AD500A064DA /* Flow RevSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AEB0F9F8AD500A064DA /* Flow RevSum.txt */; };
+		CE930B160F9F8AD500A064DA /* Gateway RevSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AEC0F9F8AD500A064DA /* Gateway RevSum.txt */; };
+		CE930B170F9F8AD500A064DA /* Growth RevSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AED0F9F8AD500A064DA /* Growth RevSum.txt */; };
+		CE930B180F9F8AD500A064DA /* Initiation RevSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AEE0F9F8AD500A064DA /* Initiation RevSum.txt */; };
+		CE930B190F9F8AD500A064DA /* Journey RevSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AEF0F9F8AD500A064DA /* Journey RevSum.txt */; };
+		CE930B1A0F9F8AD500A064DA /* Joy RevSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AF00F9F8AD500A064DA /* Joy RevSum.txt */; };
+		CE930B1B0F9F8AD500A064DA /* Movement RevSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AF10F9F8AD500A064DA /* Movement RevSum.txt */; };
+		CE930B1C0F9F8AD500A064DA /* Opening RevSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AF20F9F8AD500A064DA /* Opening RevSum.txt */; };
+		CE930B1D0F9F8AD500A064DA /* Possessions RevSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AF30F9F8AD500A064DA /* Possessions RevSum.txt */; };
+		CE930B1E0F9F8AD500A064DA /* Protection RevSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AF40F9F8AD500A064DA /* Protection RevSum.txt */; };
+		CE930B1F0F9F8AD500A064DA /* Retreat RevSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AF50F9F8AD500A064DA /* Retreat RevSum.txt */; };
+		CE930B200F9F8AD500A064DA /* Signals RevSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AF60F9F8AD500A064DA /* Signals RevSum.txt */; };
+		CE930B210F9F8AD500A064DA /* Strength RevSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AF70F9F8AD500A064DA /* Strength RevSum.txt */; };
+		CE930B220F9F8AD500A064DA /* The Self RevSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AF80F9F8AD500A064DA /* The Self RevSum.txt */; };
+		CE930B230F9F8AD500A064DA /* Warrior RevSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AF90F9F8AD500A064DA /* Warrior RevSum.txt */; };
+		CE930B240F9F8AD500A064DA /* Breakthrough UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AFB0F9F8AD500A064DA /* Breakthrough UpSum.txt */; };
+		CE930B250F9F8AD500A064DA /* Constraint UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AFC0F9F8AD500A064DA /* Constraint UpSum.txt */; };
+		CE930B260F9F8AD500A064DA /* Defence UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AFD0F9F8AD500A064DA /* Defence UpSum.txt */; };
+		CE930B270F9F8AD500A064DA /* Disruption UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AFE0F9F8AD500A064DA /* Disruption UpSum.txt */; };
+		CE930B280F9F8AD500A064DA /* Fertility UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930AFF0F9F8AD500A064DA /* Fertility UpSum.txt */; };
+		CE930B290F9F8AD500A064DA /* Flow UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B000F9F8AD500A064DA /* Flow UpSum.txt */; };
+		CE930B2A0F9F8AD500A064DA /* Gateway UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B010F9F8AD500A064DA /* Gateway UpSum.txt */; };
+		CE930B2B0F9F8AD500A064DA /* Growth UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B020F9F8AD500A064DA /* Growth UpSum.txt */; };
+		CE930B2C0F9F8AD500A064DA /* Harvest UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B030F9F8AD500A064DA /* Harvest UpSum.txt */; };
+		CE930B2D0F9F8AD500A064DA /* Initiation UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B040F9F8AD500A064DA /* Initiation UpSum.txt */; };
+		CE930B2E0F9F8AD500A064DA /* Journey UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B050F9F8AD500A064DA /* Journey UpSum.txt */; };
+		CE930B2F0F9F8AD500A064DA /* Joy UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B060F9F8AD500A064DA /* Joy UpSum.txt */; };
+		CE930B300F9F8AD500A064DA /* Movement UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B070F9F8AD500A064DA /* Movement UpSum.txt */; };
+		CE930B310F9F8AD500A064DA /* Opening UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B080F9F8AD500A064DA /* Opening UpSum.txt */; };
+		CE930B320F9F8AD500A064DA /* Partnership UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B090F9F8AD500A064DA /* Partnership UpSum.txt */; };
+		CE930B330F9F8AD500A064DA /* Possessions UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B0A0F9F8AD500A064DA /* Possessions UpSum.txt */; };
+		CE930B340F9F8AD500A064DA /* Protection UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B0B0F9F8AD500A064DA /* Protection UpSum.txt */; };
+		CE930B350F9F8AD500A064DA /* Retreat UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B0C0F9F8AD500A064DA /* Retreat UpSum.txt */; };
+		CE930B360F9F8AD500A064DA /* Signals UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B0D0F9F8AD500A064DA /* Signals UpSum.txt */; };
+		CE930B370F9F8AD500A064DA /* Standstill UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B0E0F9F8AD500A064DA /* Standstill UpSum.txt */; };
+		CE930B380F9F8AD500A064DA /* Strength UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B0F0F9F8AD500A064DA /* Strength UpSum.txt */; };
+		CE930B390F9F8AD500A064DA /* The Self UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B100F9F8AD500A064DA /* The Self UpSum.txt */; };
+		CE930B3A0F9F8AD500A064DA /* Unknowable UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B110F9F8AD500A064DA /* Unknowable UpSum.txt */; };
+		CE930B3B0F9F8AD500A064DA /* Warrior UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B120F9F8AD500A064DA /* Warrior UpSum.txt */; };
+		CE930B3C0F9F8AD500A064DA /* Wholeness UpSum.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE930B130F9F8AD500A064DA /* Wholeness UpSum.txt */; };
+		CEB893A70F9ABAD100211916 /* RuneBack.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB893A60F9ABAD100211916 /* RuneBack.png */; };
+		CEC1C4E30F99486D0009453B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1C4D80F99486D0009453B /* Constants.m */; };
+		CEC1C4E40F99486D0009453B /* RuneDetailsPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1C4DA0F99486D0009453B /* RuneDetailsPageController.m */; };
+		CEC1C4E60F99486D0009453B /* RuneListCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1C4DE0F99486D0009453B /* RuneListCellViewController.m */; };
+		CEC1C4E70F99486D0009453B /* RuneListDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1C4E00F99486D0009453B /* RuneListDetailsController.m */; };
+		CEC1C4E80F99486D0009453B /* RuneListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1C4E20F99486D0009453B /* RuneListViewController.m */; };
+		CEC1C4F00F9948860009453B /* RuneData.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEC1C4E90F9948860009453B /* RuneData.plist */; };
+		CEC1C4F10F9948860009453B /* RuneDetailsPagesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC1C4EA0F9948860009453B /* RuneDetailsPagesView.xib */; };
+		CEC1C4F20F9948860009453B /* RuneDetailsTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC1C4EB0F9948860009453B /* RuneDetailsTextView.xib */; };
+		CEC1C4F30F9948860009453B /* RuneListCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC1C4EC0F9948860009453B /* RuneListCellView.xib */; };
+		CEC1C4F40F9948860009453B /* RuneListDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC1C4ED0F9948860009453B /* RuneListDetailsView.xib */; };
+		CEC1C4F50F9948860009453B /* RuneListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC1C4EE0F9948860009453B /* RuneListView.xib */; };
+		CEC1C5260F9949980009453B /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1C5250F9949980009453B /* Utility.m */; };
+		CEC1C52E0F994AA90009453B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC1C52D0F994AA90009453B /* QuartzCore.framework */; };
+		CEE21F1F0F9CDF5A00FDE557 /* SwitchButtonBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE21F1D0F9CDF5A00FDE557 /* SwitchButtonBlack.png */; };
+		CEE21F200F9CDF5A00FDE557 /* SwitchButtonBloodWood.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE21F1E0F9CDF5A00FDE557 /* SwitchButtonBloodWood.png */; };
+		CEE21F5F0F9CE84C00FDE557 /* PagingScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE21F5E0F9CE84C00FDE557 /* PagingScrollViewController.m */; };
+		CEE21FFD0F9D02C200FDE557 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE21FFB0F9D02C200FDE557 /* AudioToolbox.framework */; };
+		CEE21FFE0F9D02C200FDE557 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE21FFC0F9D02C200FDE557 /* AVFoundation.framework */; };
+		CEE220510F9D14AB00FDE557 /* Chimes 1.caf in Resources */ = {isa = PBXBuildFile; fileRef = CEE220500F9D14AB00FDE557 /* Chimes 1.caf */; };
+		CEE220530F9D152100FDE557 /* click_off.wav in Resources */ = {isa = PBXBuildFile; fileRef = CEE220520F9D152100FDE557 /* click_off.wav */; };
+		CEE220A00F9D18F500FDE557 /* ChimesShort.caf in Resources */ = {isa = PBXBuildFile; fileRef = CEE2209F0F9D18F500FDE557 /* ChimesShort.caf */; };
+		CEE220A60F9D1EA700FDE557 /* SoundEffectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE220A50F9D1EA700FDE557 /* SoundEffectsController.m */; };
+		CEE220B70F9D244B00FDE557 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEE220B60F9D244B00FDE557 /* Settings.bundle */; };
+		CEE93F130F9D48B3007E6DC3 /* ShortChime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEE93F120F9D48B3007E6DC3 /* ShortChime.mp3 */; };
+		CEE940220F9DEAA8007E6DC3 /* SwitchButtonBlackHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE940210F9DEAA8007E6DC3 /* SwitchButtonBlackHighlight.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* RunemalAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunemalAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* RunemalAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunemalAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Runemal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runemal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Runemal_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runemal_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE04EF9F0F9B839E00760398 /* Breakthrough.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Breakthrough.png; sourceTree = "<group>"; };
+		CE04EFA00F9B839E00760398 /* Constraint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Constraint.png; sourceTree = "<group>"; };
+		CE04EFA10F9B839E00760398 /* Defence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Defence.png; sourceTree = "<group>"; };
+		CE04EFA20F9B839E00760398 /* Diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diamond.png; sourceTree = "<group>"; };
+		CE04EFA30F9B839E00760398 /* Disruption.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Disruption.png; sourceTree = "<group>"; };
+		CE04EFA40F9B839E00760398 /* Fertility.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fertility.png; sourceTree = "<group>"; };
+		CE04EFA50F9B839E00760398 /* Flow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flow.png; sourceTree = "<group>"; };
+		CE04EFA60F9B839E00760398 /* Gateway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gateway.png; sourceTree = "<group>"; };
+		CE04EFA70F9B839E00760398 /* Growth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Growth.png; sourceTree = "<group>"; };
+		CE04EFA80F9B839E00760398 /* Harvest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Harvest.png; sourceTree = "<group>"; };
+		CE04EFA90F9B839E00760398 /* Initiation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Initiation.png; sourceTree = "<group>"; };
+		CE04EFAA0F9B839E00760398 /* Journey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Journey.png; sourceTree = "<group>"; };
+		CE04EFAB0F9B839E00760398 /* Joy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Joy.png; sourceTree = "<group>"; };
+		CE04EFAC0F9B839E00760398 /* Movement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Movement.png; sourceTree = "<group>"; };
+		CE04EFAD0F9B839E00760398 /* Opening.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Opening.png; sourceTree = "<group>"; };
+		CE04EFAE0F9B839E00760398 /* Partnership.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Partnership.png; sourceTree = "<group>"; };
+		CE04EFAF0F9B839E00760398 /* Possessions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Possessions.png; sourceTree = "<group>"; };
+		CE04EFB00F9B839E00760398 /* Protection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Protection.png; sourceTree = "<group>"; };
+		CE04EFB10F9B839E00760398 /* Retreat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Retreat.png; sourceTree = "<group>"; };
+		CE04EFB20F9B839E00760398 /* Self.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Self.png; sourceTree = "<group>"; };
+		CE04EFB30F9B839E00760398 /* Signals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Signals.png; sourceTree = "<group>"; };
+		CE04EFB40F9B839E00760398 /* Standstill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Standstill.png; sourceTree = "<group>"; };
+		CE04EFB50F9B839E00760398 /* Strength.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Strength.png; sourceTree = "<group>"; };
+		CE04EFB60F9B839E00760398 /* Unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unknown.png; sourceTree = "<group>"; };
+		CE04EFB70F9B839E00760398 /* Warrior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Warrior.png; sourceTree = "<group>"; };
+		CE04EFB80F9B839E00760398 /* Wholeness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wholeness.png; sourceTree = "<group>"; };
+		CE04EFED0F9B911800760398 /* OneRuneCastView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OneRuneCastView.xib; sourceTree = "<group>"; };
+		CE04EFEE0F9B911800760398 /* ThreeRuneCastView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeRuneCastView.xib; sourceTree = "<group>"; };
+		CE04F01D0F9B972100760398 /* RuneReadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RuneReadView.xib; sourceTree = "<group>"; };
+		CE04F0250F9B992E00760398 /* RuneReadingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuneReadingsViewController.m; sourceTree = "<group>"; };
+		CE04F0420F9B9AC300760398 /* RuneReadPagesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RuneReadPagesView.xib; sourceTree = "<group>"; };
+		CE04F1B60F9BC5DC00760398 /* SwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchViewController.h; sourceTree = "<group>"; };
+		CE04F1B70F9BC5DC00760398 /* SwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchViewController.m; sourceTree = "<group>"; };
+		CE07FEB40FA2028F004FE5E0 /* Pouch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pouch.png; path = Images/Pouch.png; sourceTree = "<group>"; };
+		CE07FEC70FA24AA4004FE5E0 /* Pouch Highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pouch Highlight.png"; path = "Images/Pouch Highlight.png"; sourceTree = "<group>"; };
+		CE2D25BD0FA4AAC300C9642B /* RuneClick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = RuneClick.wav; path = Audio/RuneClick.wav; sourceTree = "<group>"; };
+		CE2D25C30FA4AC2C00C9642B /* Shake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Shake.mp3; path = Audio/Shake.mp3; sourceTree = "<group>"; };
+		CE2D25EE0FA4AD7B00C9642B /* RuneClick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = RuneClick.mp3; path = Audio/RuneClick.mp3; sourceTree = "<group>"; };
+		CE4DA8620F99F9C9009D14F3 /* Arrow next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow next.png"; sourceTree = "<group>"; };
+		CE4DA8630F99F9C9009D14F3 /* Arrow Previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow Previous.png"; sourceTree = "<group>"; };
+		CE4DA8690F99FB5B009D14F3 /* BloodWood 320x370.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BloodWood 320x370.png"; path = "Materials/BloodWood 320x370.png"; sourceTree = "<group>"; };
+		CE4DA87E0F9A052D009D14F3 /* BloodWood 320x70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BloodWood 320x70.png"; path = "Materials/BloodWood 320x70.png"; sourceTree = "<group>"; };
+		CE4DA8F10F9A14CA009D14F3 /* BloodWood 320x411.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BloodWood 320x411.png"; path = "Materials/BloodWood 320x411.png"; sourceTree = "<group>"; };
+		CE4DA8F30F9A14F7009D14F3 /* SixRuneCastView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SixRuneCastView.xib; sourceTree = "<group>"; };
+		CE4DA8F70F9A17C3009D14F3 /* RuneCastingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuneCastingController.h; sourceTree = "<group>"; };
+		CE4DA8F80F9A17C3009D14F3 /* RuneCastingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuneCastingController.m; sourceTree = "<group>"; };
+		CE4DA90A0F9A19FF009D14F3 /* Green Rune Outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Rune Outline.png"; sourceTree = "<group>"; };
+		CE4DA96C0F9A3377009D14F3 /* DragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragView.h; sourceTree = "<group>"; };
+		CE4DA96D0F9A3377009D14F3 /* DragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragView.m; sourceTree = "<group>"; };
+		CE4DAA360F9A513A009D14F3 /* RuneBackTouched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RuneBackTouched.png; sourceTree = "<group>"; };
+		CE622A010F9CB2EC00B2BD11 /* SwitchBoardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchBoardView.xib; sourceTree = "<group>"; };
+		CE622A050F9CB3C700B2BD11 /* SwitchBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchBoardViewController.h; sourceTree = "<group>"; };
+		CE622A060F9CB3C700B2BD11 /* SwitchBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchBoardViewController.m; sourceTree = "<group>"; };
+		CE8555DD140971290037A4C3 /* Runemal copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Runemal copy-Info.plist"; path = "/Volumes/Storage/iPhone Development/Runemal/Runemal copy-Info.plist"; sourceTree = "<absolute>"; };
+		CE8D33720FA377FB000EEF15 /* Pouch 50x70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pouch 50x70.png"; path = "Images/Pouch 50x70.png"; sourceTree = "<group>"; };
+		CE8D33730FA377FB000EEF15 /* Pouch Highlight 50x70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pouch Highlight 50x70.png"; path = "Images/Pouch Highlight 50x70.png"; sourceTree = "<group>"; };
+		CE8D33B30FA4948A000EEF15 /* BagShakeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BagShakeController.h; sourceTree = "<group>"; };
+		CE8D33B40FA4948A000EEF15 /* BagShakeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BagShakeController.m; sourceTree = "<group>"; };
+		CE93070C0F9E09A700A064DA /* Constraint Rev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Constraint Rev.txt"; sourceTree = "<group>"; };
+		CE93070D0F9E09A700A064DA /* Flow Rev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Flow Rev.txt"; sourceTree = "<group>"; };
+		CE93070E0F9E09A700A064DA /* Gateway Rev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Gateway Rev.txt"; sourceTree = "<group>"; };
+		CE93070F0F9E09A700A064DA /* Growth Rev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Growth Rev.txt"; sourceTree = "<group>"; };
+		CE9307100F9E09A700A064DA /* Initiation Rev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Initiation Rev.txt"; sourceTree = "<group>"; };
+		CE9307110F9E09A700A064DA /* Journey Rev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Journey Rev.txt"; sourceTree = "<group>"; };
+		CE9307120F9E09A700A064DA /* Joy Rev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Joy Rev.txt"; sourceTree = "<group>"; };
+		CE9307130F9E09A700A064DA /* Movement Rev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Movement Rev.txt"; sourceTree = "<group>"; };
+		CE9307140F9E09A700A064DA /* NoReverse.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NoReverse.txt; sourceTree = "<group>"; };
+		CE9307150F9E09A700A064DA /* Opening Rev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Opening Rev.txt"; sourceTree = "<group>"; };
+		CE9307160F9E09A700A064DA /* Possessions Rev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Possessions Rev.txt"; sourceTree = "<group>"; };
+		CE9307170F9E09A700A064DA /* Protection Rev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Protection Rev.txt"; sourceTree = "<group>"; };
+		CE9307180F9E09A700A064DA /* Retreat Rev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Retreat Rev.txt"; sourceTree = "<group>"; };
+		CE9307190F9E09A700A064DA /* Signals Rev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Signals Rev.txt"; sourceTree = "<group>"; };
+		CE93071A0F9E09A700A064DA /* Strength Rev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Strength Rev.txt"; sourceTree = "<group>"; };
+		CE93071B0F9E09A700A064DA /* The Self Rev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The Self Rev.txt"; sourceTree = "<group>"; };
+		CE93071C0F9E09A700A064DA /* Warrior Rev.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Warrior Rev.txt"; sourceTree = "<group>"; };
+		CE93071E0F9E09A700A064DA /* Breakthrough Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Breakthrough Up.txt"; sourceTree = "<group>"; };
+		CE93071F0F9E09A700A064DA /* Constraint Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Constraint Up.txt"; sourceTree = "<group>"; };
+		CE9307200F9E09A700A064DA /* Defence Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Defence Up.txt"; sourceTree = "<group>"; };
+		CE9307210F9E09A700A064DA /* Disruption Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Disruption Up.txt"; sourceTree = "<group>"; };
+		CE9307220F9E09A700A064DA /* Fertility Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Fertility Up.txt"; sourceTree = "<group>"; };
+		CE9307230F9E09A700A064DA /* Flow Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Flow Up.txt"; sourceTree = "<group>"; };
+		CE9307240F9E09A700A064DA /* Gateway Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Gateway Up.txt"; sourceTree = "<group>"; };
+		CE9307250F9E09A700A064DA /* Growth Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Growth Up.txt"; sourceTree = "<group>"; };
+		CE9307260F9E09A700A064DA /* Harvest Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Harvest Up.txt"; sourceTree = "<group>"; };
+		CE9307270F9E09A700A064DA /* Initiation Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Initiation Up.txt"; sourceTree = "<group>"; };
+		CE9307280F9E09A700A064DA /* Journey Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Journey Up.txt"; sourceTree = "<group>"; };
+		CE9307290F9E09A700A064DA /* Joy Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Joy Up.txt"; sourceTree = "<group>"; };
+		CE93072A0F9E09A700A064DA /* Movement Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Movement Up.txt"; sourceTree = "<group>"; };
+		CE93072B0F9E09A700A064DA /* Opening Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Opening Up.txt"; sourceTree = "<group>"; };
+		CE93072C0F9E09A700A064DA /* Partnership Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Partnership Up.txt"; sourceTree = "<group>"; };
+		CE93072D0F9E09A700A064DA /* Possessions Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Possessions Up.txt"; sourceTree = "<group>"; };
+		CE93072E0F9E09A700A064DA /* Protection Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Protection Up.txt"; sourceTree = "<group>"; };
+		CE93072F0F9E09A700A064DA /* Retreat Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Retreat Up.txt"; sourceTree = "<group>"; };
+		CE9307300F9E09A700A064DA /* Signals Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Signals Up.txt"; sourceTree = "<group>"; };
+		CE9307310F9E09A700A064DA /* Standstill Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Standstill Up.txt"; sourceTree = "<group>"; };
+		CE9307320F9E09A700A064DA /* Strength Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Strength Up.txt"; sourceTree = "<group>"; };
+		CE9307330F9E09A700A064DA /* The Self Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The Self Up.txt"; sourceTree = "<group>"; };
+		CE9307340F9E09A700A064DA /* Unknowable Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Unknowable Up.txt"; sourceTree = "<group>"; };
+		CE9307350F9E09A700A064DA /* Warrior Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Warrior Up.txt"; sourceTree = "<group>"; };
+		CE9307360F9E09A700A064DA /* Wholeness Up.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Wholeness Up.txt"; sourceTree = "<group>"; };
+		CE93089F0F9E3E1700A064DA /* Knowledge Tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Knowledge Tree.png"; path = "Images/Knowledge Tree.png"; sourceTree = "<group>"; };
+		CE9308A20F9E425800A064DA /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test.png; path = Images/test.png; sourceTree = "<group>"; };
+		CE9308A40F9E4D9F00A064DA /* The Book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "The Book.png"; path = "Images/The Book.png"; sourceTree = "<group>"; };
+		CE9308A80F9E521100A064DA /* Odin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Odin.png; path = Images/Odin.png; sourceTree = "<group>"; };
+		CE9308B00F9E5F0A00A064DA /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = Images/info.png; sourceTree = "<group>"; };
+		CE9308B30F9E64B700A064DA /* RuneUsageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuneUsageController.h; sourceTree = "<group>"; };
+		CE9308B40F9E64B700A064DA /* RuneUsageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuneUsageController.m; sourceTree = "<group>"; };
+		CE9308B80F9E655700A064DA /* RuneUsage.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RuneUsage.txt; path = "Rune Text/RuneUsage.txt"; sourceTree = "<group>"; };
+		CE9308BC0F9E6A8100A064DA /* RunemalInformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunemalInformationController.h; sourceTree = "<group>"; };
+		CE9308BD0F9E6A8100A064DA /* RunemalInformationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunemalInformationController.m; sourceTree = "<group>"; };
+		CE9308BF0F9E6AFC00A064DA /* Information.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Information.txt; path = "Rune Text/Information.txt"; sourceTree = "<group>"; };
+		CE9309A00F9E967200A064DA /* st3.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = st3.aiff; path = Audio/st3.aiff; sourceTree = "<group>"; };
+		CE9309B00F9F481600A064DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Default.png; sourceTree = "<group>"; };
+		CE9309EF0F9F51CA00A064DA /* Desktop icon 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Desktop icon 57.png"; path = "Images/Desktop icon 57.png"; sourceTree = "<group>"; };
+		CE930AC70F9F6CEC00A064DA /* st1.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = st1.aiff; path = Audio/st1.aiff; sourceTree = "<group>"; };
+		CE930AC80F9F6CEC00A064DA /* st2.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = st2.aiff; path = Audio/st2.aiff; sourceTree = "<group>"; };
+		CE930AC90F9F6CEC00A064DA /* st4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = st4.aiff; path = Audio/st4.aiff; sourceTree = "<group>"; };
+		CE930AEA0F9F8AD500A064DA /* Constraint RevSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Constraint RevSum.txt"; sourceTree = "<group>"; };
+		CE930AEB0F9F8AD500A064DA /* Flow RevSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Flow RevSum.txt"; sourceTree = "<group>"; };
+		CE930AEC0F9F8AD500A064DA /* Gateway RevSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Gateway RevSum.txt"; sourceTree = "<group>"; };
+		CE930AED0F9F8AD500A064DA /* Growth RevSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Growth RevSum.txt"; sourceTree = "<group>"; };
+		CE930AEE0F9F8AD500A064DA /* Initiation RevSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Initiation RevSum.txt"; sourceTree = "<group>"; };
+		CE930AEF0F9F8AD500A064DA /* Journey RevSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Journey RevSum.txt"; sourceTree = "<group>"; };
+		CE930AF00F9F8AD500A064DA /* Joy RevSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Joy RevSum.txt"; sourceTree = "<group>"; };
+		CE930AF10F9F8AD500A064DA /* Movement RevSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Movement RevSum.txt"; sourceTree = "<group>"; };
+		CE930AF20F9F8AD500A064DA /* Opening RevSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Opening RevSum.txt"; sourceTree = "<group>"; };
+		CE930AF30F9F8AD500A064DA /* Possessions RevSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Possessions RevSum.txt"; sourceTree = "<group>"; };
+		CE930AF40F9F8AD500A064DA /* Protection RevSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Protection RevSum.txt"; sourceTree = "<group>"; };
+		CE930AF50F9F8AD500A064DA /* Retreat RevSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Retreat RevSum.txt"; sourceTree = "<group>"; };
+		CE930AF60F9F8AD500A064DA /* Signals RevSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Signals RevSum.txt"; sourceTree = "<group>"; };
+		CE930AF70F9F8AD500A064DA /* Strength RevSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Strength RevSum.txt"; sourceTree = "<group>"; };
+		CE930AF80F9F8AD500A064DA /* The Self RevSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The Self RevSum.txt"; sourceTree = "<group>"; };
+		CE930AF90F9F8AD500A064DA /* Warrior RevSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Warrior RevSum.txt"; sourceTree = "<group>"; };
+		CE930AFB0F9F8AD500A064DA /* Breakthrough UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Breakthrough UpSum.txt"; sourceTree = "<group>"; };
+		CE930AFC0F9F8AD500A064DA /* Constraint UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Constraint UpSum.txt"; sourceTree = "<group>"; };
+		CE930AFD0F9F8AD500A064DA /* Defence UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Defence UpSum.txt"; sourceTree = "<group>"; };
+		CE930AFE0F9F8AD500A064DA /* Disruption UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Disruption UpSum.txt"; sourceTree = "<group>"; };
+		CE930AFF0F9F8AD500A064DA /* Fertility UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Fertility UpSum.txt"; sourceTree = "<group>"; };
+		CE930B000F9F8AD500A064DA /* Flow UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Flow UpSum.txt"; sourceTree = "<group>"; };
+		CE930B010F9F8AD500A064DA /* Gateway UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Gateway UpSum.txt"; sourceTree = "<group>"; };
+		CE930B020F9F8AD500A064DA /* Growth UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Growth UpSum.txt"; sourceTree = "<group>"; };
+		CE930B030F9F8AD500A064DA /* Harvest UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Harvest UpSum.txt"; sourceTree = "<group>"; };
+		CE930B040F9F8AD500A064DA /* Initiation UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Initiation UpSum.txt"; sourceTree = "<group>"; };
+		CE930B050F9F8AD500A064DA /* Journey UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Journey UpSum.txt"; sourceTree = "<group>"; };
+		CE930B060F9F8AD500A064DA /* Joy UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Joy UpSum.txt"; sourceTree = "<group>"; };
+		CE930B070F9F8AD500A064DA /* Movement UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Movement UpSum.txt"; sourceTree = "<group>"; };
+		CE930B080F9F8AD500A064DA /* Opening UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Opening UpSum.txt"; sourceTree = "<group>"; };
+		CE930B090F9F8AD500A064DA /* Partnership UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Partnership UpSum.txt"; sourceTree = "<group>"; };
+		CE930B0A0F9F8AD500A064DA /* Possessions UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Possessions UpSum.txt"; sourceTree = "<group>"; };
+		CE930B0B0F9F8AD500A064DA /* Protection UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Protection UpSum.txt"; sourceTree = "<group>"; };
+		CE930B0C0F9F8AD500A064DA /* Retreat UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Retreat UpSum.txt"; sourceTree = "<group>"; };
+		CE930B0D0F9F8AD500A064DA /* Signals UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Signals UpSum.txt"; sourceTree = "<group>"; };
+		CE930B0E0F9F8AD500A064DA /* Standstill UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Standstill UpSum.txt"; sourceTree = "<group>"; };
+		CE930B0F0F9F8AD500A064DA /* Strength UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Strength UpSum.txt"; sourceTree = "<group>"; };
+		CE930B100F9F8AD500A064DA /* The Self UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The Self UpSum.txt"; sourceTree = "<group>"; };
+		CE930B110F9F8AD500A064DA /* Unknowable UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Unknowable UpSum.txt"; sourceTree = "<group>"; };
+		CE930B120F9F8AD500A064DA /* Warrior UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Warrior UpSum.txt"; sourceTree = "<group>"; };
+		CE930B130F9F8AD500A064DA /* Wholeness UpSum.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Wholeness UpSum.txt"; sourceTree = "<group>"; };
+		CEB893A60F9ABAD100211916 /* RuneBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RuneBack.png; sourceTree = "<group>"; };
+		CEC1C4D70F99486D0009453B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CEC1C4D80F99486D0009453B /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		CEC1C4D90F99486D0009453B /* RuneDetailsPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuneDetailsPageController.h; sourceTree = "<group>"; };
+		CEC1C4DA0F99486D0009453B /* RuneDetailsPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuneDetailsPageController.m; sourceTree = "<group>"; };
+		CEC1C4DD0F99486D0009453B /* RuneListCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuneListCellViewController.h; sourceTree = "<group>"; };
+		CEC1C4DE0F99486D0009453B /* RuneListCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuneListCellViewController.m; sourceTree = "<group>"; };
+		CEC1C4DF0F99486D0009453B /* RuneListDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuneListDetailsController.h; sourceTree = "<group>"; };
+		CEC1C4E00F99486D0009453B /* RuneListDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuneListDetailsController.m; sourceTree = "<group>"; };
+		CEC1C4E10F99486D0009453B /* RuneListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuneListViewController.h; sourceTree = "<group>"; };
+		CEC1C4E20F99486D0009453B /* RuneListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuneListViewController.m; sourceTree = "<group>"; };
+		CEC1C4E90F9948860009453B /* RuneData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RuneData.plist; sourceTree = "<group>"; };
+		CEC1C4EA0F9948860009453B /* RuneDetailsPagesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RuneDetailsPagesView.xib; sourceTree = "<group>"; };
+		CEC1C4EB0F9948860009453B /* RuneDetailsTextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RuneDetailsTextView.xib; sourceTree = "<group>"; };
+		CEC1C4EC0F9948860009453B /* RuneListCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RuneListCellView.xib; sourceTree = "<group>"; };
+		CEC1C4ED0F9948860009453B /* RuneListDetailsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RuneListDetailsView.xib; sourceTree = "<group>"; };
+		CEC1C4EE0F9948860009453B /* RuneListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RuneListView.xib; sourceTree = "<group>"; };
+		CEC1C5240F9949980009453B /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		CEC1C5250F9949980009453B /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		CEC1C52D0F994AA90009453B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CEE21F1D0F9CDF5A00FDE557 /* SwitchButtonBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwitchButtonBlack.png; sourceTree = "<group>"; };
+		CEE21F1E0F9CDF5A00FDE557 /* SwitchButtonBloodWood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwitchButtonBloodWood.png; sourceTree = "<group>"; };
+		CEE21F5D0F9CE84C00FDE557 /* PagingScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagingScrollViewController.h; sourceTree = "<group>"; };
+		CEE21F5E0F9CE84C00FDE557 /* PagingScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagingScrollViewController.m; sourceTree = "<group>"; };
+		CEE21FC10F9CED3E00FDE557 /* RuneReadingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuneReadingsViewController.h; sourceTree = "<group>"; };
+		CEE21FFB0F9D02C200FDE557 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CEE21FFC0F9D02C200FDE557 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CEE220500F9D14AB00FDE557 /* Chimes 1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Chimes 1.caf"; path = "Audio/Chimes 1.caf"; sourceTree = "<group>"; };
+		CEE220520F9D152100FDE557 /* click_off.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = click_off.wav; path = Audio/click_off.wav; sourceTree = "<group>"; };
+		CEE2209F0F9D18F500FDE557 /* ChimesShort.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ChimesShort.caf; path = Audio/ChimesShort.caf; sourceTree = "<group>"; };
+		CEE220A40F9D1EA700FDE557 /* SoundEffectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffectsController.h; sourceTree = "<group>"; };
+		CEE220A50F9D1EA700FDE557 /* SoundEffectsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffectsController.m; sourceTree = "<group>"; };
+		CEE220B60F9D244B00FDE557 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		CEE93F120F9D48B3007E6DC3 /* ShortChime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ShortChime.mp3; path = Audio/ShortChime.mp3; sourceTree = "<group>"; };
+		CEE940210F9DEAA8007E6DC3 /* SwitchButtonBlackHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwitchButtonBlackHighlight.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				CEC1C52E0F994AA90009453B /* QuartzCore.framework in Frameworks */,
+				CEE21FFD0F9D02C200FDE557 /* AudioToolbox.framework in Frameworks */,
+				CEE21FFE0F9D02C200FDE557 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE8D33B20FA4945B000EEF15 /* Accelerometor Controllers */,
+				CE9308B20F9E64A000A064DA /* Information Controllers */,
+				CE622A040F9CB3AD00B2BD11 /* Switch Board Controllers */,
+				CE04F2680F9BEDD500760398 /* Abstract */,
+				CE4DA8F60F9A179B009D14F3 /* Casting Controllers */,
+				CEC1C5370F994B110009453B /* Rune Library Controllers */,
+				CEC1C5360F994B060009453B /* App Delegate */,
+				CEC1C5320F994AE10009453B /* Helpers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Runemal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				CEE220B60F9D244B00FDE557 /* Settings.bundle */,
+				CE8555DD140971290037A4C3 /* Runemal copy-Info.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Runemal_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE9308B60F9E651600A064DA /* Text */,
+				CEC1C53B0F994B7B0009453B /* Data Sources */,
+				CEC1C53A0F994B720009453B /* Views */,
+				CEC1C5390F994B6C0009453B /* Audio */,
+				CEC1C5380F994B640009453B /* Images */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE21FFB0F9D02C200FDE557 /* AudioToolbox.framework */,
+				CEE21FFC0F9D02C200FDE557 /* AVFoundation.framework */,
+				CEC1C52D0F994AA90009453B /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE04EF9E0F9B839E00760398 /* Black Glossy */ = {
+			isa = PBXGroup;
+			children = (
+				CE04EF9F0F9B839E00760398 /* Breakthrough.png */,
+				CE04EFA00F9B839E00760398 /* Constraint.png */,
+				CE04EFA10F9B839E00760398 /* Defence.png */,
+				CE04EFA20F9B839E00760398 /* Diamond.png */,
+				CE04EFA30F9B839E00760398 /* Disruption.png */,
+				CE04EFA40F9B839E00760398 /* Fertility.png */,
+				CE04EFA50F9B839E00760398 /* Flow.png */,
+				CE04EFA60F9B839E00760398 /* Gateway.png */,
+				CE04EFA70F9B839E00760398 /* Growth.png */,
+				CE04EFA80F9B839E00760398 /* Harvest.png */,
+				CE04EFA90F9B839E00760398 /* Initiation.png */,
+				CE04EFAA0F9B839E00760398 /* Journey.png */,
+				CE04EFAB0F9B839E00760398 /* Joy.png */,
+				CE04EFAC0F9B839E00760398 /* Movement.png */,
+				CE04EFAD0F9B839E00760398 /* Opening.png */,
+				CE04EFAE0F9B839E00760398 /* Partnership.png */,
+				CE04EFAF0F9B839E00760398 /* Possessions.png */,
+				CE04EFB00F9B839E00760398 /* Protection.png */,
+				CE04EFB10F9B839E00760398 /* Retreat.png */,
+				CE04EFB20F9B839E00760398 /* Self.png */,
+				CE04EFB30F9B839E00760398 /* Signals.png */,
+				CE04EFB40F9B839E00760398 /* Standstill.png */,
+				CE04EFB50F9B839E00760398 /* Strength.png */,
+				CE04EFB60F9B839E00760398 /* Unknown.png */,
+				CE04EFB70F9B839E00760398 /* Warrior.png */,
+				CE04EFB80F9B839E00760398 /* Wholeness.png */,
+			);
+			name = "Black Glossy";
+			path = "Runes/Black Glossy";
+			sourceTree = "<group>";
+		};
+		CE04F2680F9BEDD500760398 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				CE04F1B60F9BC5DC00760398 /* SwitchViewController.h */,
+				CE04F1B70F9BC5DC00760398 /* SwitchViewController.m */,
+			);
+			name = Abstract;
+			sourceTree = "<group>";
+		};
+		CE4DA8F60F9A179B009D14F3 /* Casting Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEE21F5D0F9CE84C00FDE557 /* PagingScrollViewController.h */,
+				CEE21F5E0F9CE84C00FDE557 /* PagingScrollViewController.m */,
+				CE4DA8F70F9A17C3009D14F3 /* RuneCastingController.h */,
+				CE4DA8F80F9A17C3009D14F3 /* RuneCastingController.m */,
+				CE4DA96C0F9A3377009D14F3 /* DragView.h */,
+				CE4DA96D0F9A3377009D14F3 /* DragView.m */,
+				CEE21FC10F9CED3E00FDE557 /* RuneReadingsViewController.h */,
+				CE04F0250F9B992E00760398 /* RuneReadingsViewController.m */,
+			);
+			name = "Casting Controllers";
+			sourceTree = "<group>";
+		};
+		CE622A040F9CB3AD00B2BD11 /* Switch Board Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE622A050F9CB3C700B2BD11 /* SwitchBoardViewController.h */,
+				CE622A060F9CB3C700B2BD11 /* SwitchBoardViewController.m */,
+			);
+			name = "Switch Board Controllers";
+			sourceTree = "<group>";
+		};
+		CE8D33B20FA4945B000EEF15 /* Accelerometor Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE8D33B30FA4948A000EEF15 /* BagShakeController.h */,
+				CE8D33B40FA4948A000EEF15 /* BagShakeController.m */,
+			);
+			name = "Accelerometor Controllers";
+			sourceTree = "<group>";
+		};
+		CE93070B0F9E09A700A064DA /* Reversed */ = {
+			isa = PBXGroup;
+			children = (
+				CE93070C0F9E09A700A064DA /* Constraint Rev.txt */,
+				CE93070D0F9E09A700A064DA /* Flow Rev.txt */,
+				CE93070E0F9E09A700A064DA /* Gateway Rev.txt */,
+				CE93070F0F9E09A700A064DA /* Growth Rev.txt */,
+				CE9307100F9E09A700A064DA /* Initiation Rev.txt */,
+				CE9307110F9E09A700A064DA /* Journey Rev.txt */,
+				CE9307120F9E09A700A064DA /* Joy Rev.txt */,
+				CE9307130F9E09A700A064DA /* Movement Rev.txt */,
+				CE9307140F9E09A700A064DA /* NoReverse.txt */,
+				CE9307150F9E09A700A064DA /* Opening Rev.txt */,
+				CE9307160F9E09A700A064DA /* Possessions Rev.txt */,
+				CE9307170F9E09A700A064DA /* Protection Rev.txt */,
+				CE9307180F9E09A700A064DA /* Retreat Rev.txt */,
+				CE9307190F9E09A700A064DA /* Signals Rev.txt */,
+				CE93071A0F9E09A700A064DA /* Strength Rev.txt */,
+				CE93071B0F9E09A700A064DA /* The Self Rev.txt */,
+				CE93071C0F9E09A700A064DA /* Warrior Rev.txt */,
+			);
+			name = Reversed;
+			path = "Rune Text/Reversed";
+			sourceTree = "<group>";
+		};
+		CE93071D0F9E09A700A064DA /* Upright */ = {
+			isa = PBXGroup;
+			children = (
+				CE93071E0F9E09A700A064DA /* Breakthrough Up.txt */,
+				CE93071F0F9E09A700A064DA /* Constraint Up.txt */,
+				CE9307200F9E09A700A064DA /* Defence Up.txt */,
+				CE9307210F9E09A700A064DA /* Disruption Up.txt */,
+				CE9307220F9E09A700A064DA /* Fertility Up.txt */,
+				CE9307230F9E09A700A064DA /* Flow Up.txt */,
+				CE9307240F9E09A700A064DA /* Gateway Up.txt */,
+				CE9307250F9E09A700A064DA /* Growth Up.txt */,
+				CE9307260F9E09A700A064DA /* Harvest Up.txt */,
+				CE9307270F9E09A700A064DA /* Initiation Up.txt */,
+				CE9307280F9E09A700A064DA /* Journey Up.txt */,
+				CE9307290F9E09A700A064DA /* Joy Up.txt */,
+				CE93072A0F9E09A700A064DA /* Movement Up.txt */,
+				CE93072B0F9E09A700A064DA /* Opening Up.txt */,
+				CE93072C0F9E09A700A064DA /* Partnership Up.txt */,
+				CE93072D0F9E09A700A064DA /* Possessions Up.txt */,
+				CE93072E0F9E09A700A064DA /* Protection Up.txt */,
+				CE93072F0F9E09A700A064DA /* Retreat Up.txt */,
+				CE9307300F9E09A700A064DA /* Signals Up.txt */,
+				CE9307310F9E09A700A064DA /* Standstill Up.txt */,
+				CE9307320F9E09A700A064DA /* Strength Up.txt */,
+				CE9307330F9E09A700A064DA /* The Self Up.txt */,
+				CE9307340F9E09A700A064DA /* Unknowable Up.txt */,
+				CE9307350F9E09A700A064DA /* Warrior Up.txt */,
+				CE9307360F9E09A700A064DA /* Wholeness Up.txt */,
+			);
+			name = Upright;
+			path = "Rune Text/Upright";
+			sourceTree = "<group>";
+		};
+		CE9308B20F9E64A000A064DA /* Information Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE9308B30F9E64B700A064DA /* RuneUsageController.h */,
+				CE9308B40F9E64B700A064DA /* RuneUsageController.m */,
+				CE9308BC0F9E6A8100A064DA /* RunemalInformationController.h */,
+				CE9308BD0F9E6A8100A064DA /* RunemalInformationController.m */,
+			);
+			name = "Information Controllers";
+			sourceTree = "<group>";
+		};
+		CE9308B60F9E651600A064DA /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				CE930AE90F9F8AD500A064DA /* Reversed Sumary */,
+				CE930AFA0F9F8AD500A064DA /* Upright Sumary */,
+				CE9308B70F9E653600A064DA /* Info */,
+				CE93071D0F9E09A700A064DA /* Upright */,
+				CE93070B0F9E09A700A064DA /* Reversed */,
+			);
+			name = Text;
+			sourceTree = "<group>";
+		};
+		CE9308B70F9E653600A064DA /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				CE9308BF0F9E6AFC00A064DA /* Information.txt */,
+				CE9308B80F9E655700A064DA /* RuneUsage.txt */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		CE930AE90F9F8AD500A064DA /* Reversed Sumary */ = {
+			isa = PBXGroup;
+			children = (
+				CE930AEA0F9F8AD500A064DA /* Constraint RevSum.txt */,
+				CE930AEB0F9F8AD500A064DA /* Flow RevSum.txt */,
+				CE930AEC0F9F8AD500A064DA /* Gateway RevSum.txt */,
+				CE930AED0F9F8AD500A064DA /* Growth RevSum.txt */,
+				CE930AEE0F9F8AD500A064DA /* Initiation RevSum.txt */,
+				CE930AEF0F9F8AD500A064DA /* Journey RevSum.txt */,
+				CE930AF00F9F8AD500A064DA /* Joy RevSum.txt */,
+				CE930AF10F9F8AD500A064DA /* Movement RevSum.txt */,
+				CE930AF20F9F8AD500A064DA /* Opening RevSum.txt */,
+				CE930AF30F9F8AD500A064DA /* Possessions RevSum.txt */,
+				CE930AF40F9F8AD500A064DA /* Protection RevSum.txt */,
+				CE930AF50F9F8AD500A064DA /* Retreat RevSum.txt */,
+				CE930AF60F9F8AD500A064DA /* Signals RevSum.txt */,
+				CE930AF70F9F8AD500A064DA /* Strength RevSum.txt */,
+				CE930AF80F9F8AD500A064DA /* The Self RevSum.txt */,
+				CE930AF90F9F8AD500A064DA /* Warrior RevSum.txt */,
+			);
+			name = "Reversed Sumary";
+			path = "Rune Text/Reversed Sumary";
+			sourceTree = "<group>";
+		};
+		CE930AFA0F9F8AD500A064DA /* Upright Sumary */ = {
+			isa = PBXGroup;
+			children = (
+				CE930AFB0F9F8AD500A064DA /* Breakthrough UpSum.txt */,
+				CE930AFC0F9F8AD500A064DA /* Constraint UpSum.txt */,
+				CE930AFD0F9F8AD500A064DA /* Defence UpSum.txt */,
+				CE930AFE0F9F8AD500A064DA /* Disruption UpSum.txt */,
+				CE930AFF0F9F8AD500A064DA /* Fertility UpSum.txt */,
+				CE930B000F9F8AD500A064DA /* Flow UpSum.txt */,
+				CE930B010F9F8AD500A064DA /* Gateway UpSum.txt */,
+				CE930B020F9F8AD500A064DA /* Growth UpSum.txt */,
+				CE930B030F9F8AD500A064DA /* Harvest UpSum.txt */,
+				CE930B040F9F8AD500A064DA /* Initiation UpSum.txt */,
+				CE930B050F9F8AD500A064DA /* Journey UpSum.txt */,
+				CE930B060F9F8AD500A064DA /* Joy UpSum.txt */,
+				CE930B070F9F8AD500A064DA /* Movement UpSum.txt */,
+				CE930B080F9F8AD500A064DA /* Opening UpSum.txt */,
+				CE930B090F9F8AD500A064DA /* Partnership UpSum.txt */,
+				CE930B0A0F9F8AD500A064DA /* Possessions UpSum.txt */,
+				CE930B0B0F9F8AD500A064DA /* Protection UpSum.txt */,
+				CE930B0C0F9F8AD500A064DA /* Retreat UpSum.txt */,
+				CE930B0D0F9F8AD500A064DA /* Signals UpSum.txt */,
+				CE930B0E0F9F8AD500A064DA /* Standstill UpSum.txt */,
+				CE930B0F0F9F8AD500A064DA /* Strength UpSum.txt */,
+				CE930B100F9F8AD500A064DA /* The Self UpSum.txt */,
+				CE930B110F9F8AD500A064DA /* Unknowable UpSum.txt */,
+				CE930B120F9F8AD500A064DA /* Warrior UpSum.txt */,
+				CE930B130F9F8AD500A064DA /* Wholeness UpSum.txt */,
+			);
+			name = "Upright Sumary";
+			path = "Rune Text/Upright Sumary";
+			sourceTree = "<group>";
+		};
+		CEC1C5320F994AE10009453B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1C5350F994AFB0009453B /* Constants */,
+				CEC1C5340F994AF10009453B /* Non Static */,
+				CEC1C5330F994AEA0009453B /* Static */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		CEC1C5330F994AEA0009453B /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1C5240F9949980009453B /* Utility.h */,
+				CEC1C5250F9949980009453B /* Utility.m */,
+			);
+			name = Static;
+			sourceTree = "<group>";
+		};
+		CEC1C5340F994AF10009453B /* Non Static */ = {
+			isa = PBXGroup;
+			children = (
+				CEE220A40F9D1EA700FDE557 /* SoundEffectsController.h */,
+				CEE220A50F9D1EA700FDE557 /* SoundEffectsController.m */,
+			);
+			name = "Non Static";
+			sourceTree = "<group>";
+		};
+		CEC1C5350F994AFB0009453B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1C4D70F99486D0009453B /* Constants.h */,
+				CEC1C4D80F99486D0009453B /* Constants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		CEC1C5360F994B060009453B /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* RunemalAppDelegate.h */,
+				1D3623250D0F684500981E51 /* RunemalAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		CEC1C5370F994B110009453B /* Rune Library Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1C4D90F99486D0009453B /* RuneDetailsPageController.h */,
+				CEC1C4DA0F99486D0009453B /* RuneDetailsPageController.m */,
+				CEC1C4DD0F99486D0009453B /* RuneListCellViewController.h */,
+				CEC1C4DE0F99486D0009453B /* RuneListCellViewController.m */,
+				CEC1C4DF0F99486D0009453B /* RuneListDetailsController.h */,
+				CEC1C4E00F99486D0009453B /* RuneListDetailsController.m */,
+				CEC1C4E10F99486D0009453B /* RuneListViewController.h */,
+				CEC1C4E20F99486D0009453B /* RuneListViewController.m */,
+			);
+			name = "Rune Library Controllers";
+			sourceTree = "<group>";
+		};
+		CEC1C5380F994B640009453B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE8D33720FA377FB000EEF15 /* Pouch 50x70.png */,
+				CE8D33730FA377FB000EEF15 /* Pouch Highlight 50x70.png */,
+				CE07FEC70FA24AA4004FE5E0 /* Pouch Highlight.png */,
+				CE07FEB40FA2028F004FE5E0 /* Pouch.png */,
+				CE9309EF0F9F51CA00A064DA /* Desktop icon 57.png */,
+				CE9309B00F9F481600A064DA /* Default.png */,
+				CE04EF9E0F9B839E00760398 /* Black Glossy */,
+				CE9308B00F9E5F0A00A064DA /* info.png */,
+				CE9308A80F9E521100A064DA /* Odin.png */,
+				CE9308A40F9E4D9F00A064DA /* The Book.png */,
+				CE9308A20F9E425800A064DA /* test.png */,
+				CE93089F0F9E3E1700A064DA /* Knowledge Tree.png */,
+				CEE940210F9DEAA8007E6DC3 /* SwitchButtonBlackHighlight.png */,
+				CEE21F1D0F9CDF5A00FDE557 /* SwitchButtonBlack.png */,
+				CEE21F1E0F9CDF5A00FDE557 /* SwitchButtonBloodWood.png */,
+				CEB893A60F9ABAD100211916 /* RuneBack.png */,
+				CE4DAA360F9A513A009D14F3 /* RuneBackTouched.png */,
+				CE4DA90A0F9A19FF009D14F3 /* Green Rune Outline.png */,
+				CE4DA8F10F9A14CA009D14F3 /* BloodWood 320x411.png */,
+				CE4DA87E0F9A052D009D14F3 /* BloodWood 320x70.png */,
+				CE4DA8690F99FB5B009D14F3 /* BloodWood 320x370.png */,
+				CE4DA8620F99F9C9009D14F3 /* Arrow next.png */,
+				CE4DA8630F99F9C9009D14F3 /* Arrow Previous.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		CEC1C5390F994B6C0009453B /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D25EE0FA4AD7B00C9642B /* RuneClick.mp3 */,
+				CE2D25C30FA4AC2C00C9642B /* Shake.mp3 */,
+				CE2D25BD0FA4AAC300C9642B /* RuneClick.wav */,
+				CE930AC70F9F6CEC00A064DA /* st1.aiff */,
+				CE930AC80F9F6CEC00A064DA /* st2.aiff */,
+				CE930AC90F9F6CEC00A064DA /* st4.aiff */,
+				CE9309A00F9E967200A064DA /* st3.aiff */,
+				CEE93F120F9D48B3007E6DC3 /* ShortChime.mp3 */,
+				CEE2209F0F9D18F500FDE557 /* ChimesShort.caf */,
+				CEE220520F9D152100FDE557 /* click_off.wav */,
+				CEE220500F9D14AB00FDE557 /* Chimes 1.caf */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		CEC1C53A0F994B720009453B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE04EFED0F9B911800760398 /* OneRuneCastView.xib */,
+				CE04EFEE0F9B911800760398 /* ThreeRuneCastView.xib */,
+				CEC1C4EA0F9948860009453B /* RuneDetailsPagesView.xib */,
+				CEC1C4EB0F9948860009453B /* RuneDetailsTextView.xib */,
+				CEC1C4EC0F9948860009453B /* RuneListCellView.xib */,
+				CEC1C4ED0F9948860009453B /* RuneListDetailsView.xib */,
+				CEC1C4EE0F9948860009453B /* RuneListView.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				CE4DA8F30F9A14F7009D14F3 /* SixRuneCastView.xib */,
+				CE04F01D0F9B972100760398 /* RuneReadView.xib */,
+				CE04F0420F9B9AC300760398 /* RuneReadPagesView.xib */,
+				CE622A010F9CB2EC00B2BD11 /* SwitchBoardView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CEC1C53B0F994B7B0009453B /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1C4E90F9948860009453B /* RuneData.plist */,
+			);
+			name = "Data Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Runemal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Runemal" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Runemal;
+			productName = Runemal;
+			productReference = 1D6058910D05DD3D006BFB54 /* Runemal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Runemal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Runemal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				CEC1C4F00F9948860009453B /* RuneData.plist in Resources */,
+				CEC1C4F10F9948860009453B /* RuneDetailsPagesView.xib in Resources */,
+				CEC1C4F20F9948860009453B /* RuneDetailsTextView.xib in Resources */,
+				CEC1C4F30F9948860009453B /* RuneListCellView.xib in Resources */,
+				CEC1C4F40F9948860009453B /* RuneListDetailsView.xib in Resources */,
+				CEC1C4F50F9948860009453B /* RuneListView.xib in Resources */,
+				CE4DA8640F99F9C9009D14F3 /* Arrow next.png in Resources */,
+				CE4DA8650F99F9C9009D14F3 /* Arrow Previous.png in Resources */,
+				CE4DA86A0F99FB5B009D14F3 /* BloodWood 320x370.png in Resources */,
+				CE4DA87F0F9A052D009D14F3 /* BloodWood 320x70.png in Resources */,
+				CE4DA8F20F9A14CA009D14F3 /* BloodWood 320x411.png in Resources */,
+				CE4DA8F40F9A14F7009D14F3 /* SixRuneCastView.xib in Resources */,
+				CE4DA90B0F9A19FF009D14F3 /* Green Rune Outline.png in Resources */,
+				CE4DAA370F9A513A009D14F3 /* RuneBackTouched.png in Resources */,
+				CEB893A70F9ABAD100211916 /* RuneBack.png in Resources */,
+				CE04EFB90F9B839E00760398 /* Breakthrough.png in Resources */,
+				CE04EFBA0F9B839E00760398 /* Constraint.png in Resources */,
+				CE04EFBB0F9B839E00760398 /* Defence.png in Resources */,
+				CE04EFBC0F9B839E00760398 /* Diamond.png in Resources */,
+				CE04EFBD0F9B839E00760398 /* Disruption.png in Resources */,
+				CE04EFBE0F9B839E00760398 /* Fertility.png in Resources */,
+				CE04EFBF0F9B839E00760398 /* Flow.png in Resources */,
+				CE04EFC00F9B839E00760398 /* Gateway.png in Resources */,
+				CE04EFC10F9B839E00760398 /* Growth.png in Resources */,
+				CE04EFC20F9B839E00760398 /* Harvest.png in Resources */,
+				CE04EFC30F9B839E00760398 /* Initiation.png in Resources */,
+				CE04EFC40F9B839E00760398 /* Journey.png in Resources */,
+				CE04EFC50F9B839E00760398 /* Joy.png in Resources */,
+				CE04EFC60F9B839E00760398 /* Movement.png in Resources */,
+				CE04EFC70F9B839E00760398 /* Opening.png in Resources */,
+				CE04EFC80F9B839E00760398 /* Partnership.png in Resources */,
+				CE04EFC90F9B839E00760398 /* Possessions.png in Resources */,
+				CE04EFCA0F9B839E00760398 /* Protection.png in Resources */,
+				CE04EFCB0F9B839E00760398 /* Retreat.png in Resources */,
+				CE04EFCC0F9B839E00760398 /* Self.png in Resources */,
+				CE04EFCD0F9B839E00760398 /* Signals.png in Resources */,
+				CE04EFCE0F9B839E00760398 /* Standstill.png in Resources */,
+				CE04EFCF0F9B839E00760398 /* Strength.png in Resources */,
+				CE04EFD00F9B839E00760398 /* Unknown.png in Resources */,
+				CE04EFD10F9B839E00760398 /* Warrior.png in Resources */,
+				CE04EFD20F9B839E00760398 /* Wholeness.png in Resources */,
+				CE04EFEF0F9B911800760398 /* OneRuneCastView.xib in Resources */,
+				CE04EFF00F9B911800760398 /* ThreeRuneCastView.xib in Resources */,
+				CE04F01E0F9B972100760398 /* RuneReadView.xib in Resources */,
+				CE04F0430F9B9AC300760398 /* RuneReadPagesView.xib in Resources */,
+				CE622A020F9CB2EC00B2BD11 /* SwitchBoardView.xib in Resources */,
+				CEE21F1F0F9CDF5A00FDE557 /* SwitchButtonBlack.png in Resources */,
+				CEE21F200F9CDF5A00FDE557 /* SwitchButtonBloodWood.png in Resources */,
+				CEE220510F9D14AB00FDE557 /* Chimes 1.caf in Resources */,
+				CEE220530F9D152100FDE557 /* click_off.wav in Resources */,
+				CEE220A00F9D18F500FDE557 /* ChimesShort.caf in Resources */,
+				CEE220B70F9D244B00FDE557 /* Settings.bundle in Resources */,
+				CEE93F130F9D48B3007E6DC3 /* ShortChime.mp3 in Resources */,
+				CEE940220F9DEAA8007E6DC3 /* SwitchButtonBlackHighlight.png in Resources */,
+				CE9307370F9E09A700A064DA /* Constraint Rev.txt in Resources */,
+				CE9307380F9E09A700A064DA /* Flow Rev.txt in Resources */,
+				CE9307390F9E09A700A064DA /* Gateway Rev.txt in Resources */,
+				CE93073A0F9E09A700A064DA /* Growth Rev.txt in Resources */,
+				CE93073B0F9E09A700A064DA /* Initiation Rev.txt in Resources */,
+				CE93073C0F9E09A700A064DA /* Journey Rev.txt in Resources */,
+				CE93073D0F9E09A700A064DA /* Joy Rev.txt in Resources */,
+				CE93073E0F9E09A700A064DA /* Movement Rev.txt in Resources */,
+				CE93073F0F9E09A700A064DA /* NoReverse.txt in Resources */,
+				CE9307400F9E09A700A064DA /* Opening Rev.txt in Resources */,
+				CE9307410F9E09A700A064DA /* Possessions Rev.txt in Resources */,
+				CE9307420F9E09A700A064DA /* Protection Rev.txt in Resources */,
+				CE9307430F9E09A700A064DA /* Retreat Rev.txt in Resources */,
+				CE9307440F9E09A700A064DA /* Signals Rev.txt in Resources */,
+				CE9307450F9E09A700A064DA /* Strength Rev.txt in Resources */,
+				CE9307460F9E09A700A064DA /* The Self Rev.txt in Resources */,
+				CE9307470F9E09A700A064DA /* Warrior Rev.txt in Resources */,
+				CE9307480F9E09A700A064DA /* Breakthrough Up.txt in Resources */,
+				CE9307490F9E09A700A064DA /* Constraint Up.txt in Resources */,
+				CE93074A0F9E09A700A064DA /* Defence Up.txt in Resources */,
+				CE93074B0F9E09A700A064DA /* Disruption Up.txt in Resources */,
+				CE93074C0F9E09A700A064DA /* Fertility Up.txt in Resources */,
+				CE93074D0F9E09A700A064DA /* Flow Up.txt in Resources */,
+				CE93074E0F9E09A700A064DA /* Gateway Up.txt in Resources */,
+				CE93074F0F9E09A700A064DA /* Growth Up.txt in Resources */,
+				CE9307500F9E09A700A064DA /* Harvest Up.txt in Resources */,
+				CE9307510F9E09A700A064DA /* Initiation Up.txt in Resources */,
+				CE9307520F9E09A700A064DA /* Journey Up.txt in Resources */,
+				CE9307530F9E09A700A064DA /* Joy Up.txt in Resources */,
+				CE9307540F9E09A700A064DA /* Movement Up.txt in Resources */,
+				CE9307550F9E09A700A064DA /* Opening Up.txt in Resources */,
+				CE9307560F9E09A700A064DA /* Partnership Up.txt in Resources */,
+				CE9307570F9E09A700A064DA /* Possessions Up.txt in Resources */,
+				CE9307580F9E09A700A064DA /* Protection Up.txt in Resources */,
+				CE9307590F9E09A700A064DA /* Retreat Up.txt in Resources */,
+				CE93075A0F9E09A700A064DA /* Signals Up.txt in Resources */,
+				CE93075B0F9E09A700A064DA /* Standstill Up.txt in Resources */,
+				CE93075C0F9E09A700A064DA /* Strength Up.txt in Resources */,
+				CE93075D0F9E09A700A064DA /* The Self Up.txt in Resources */,
+				CE93075E0F9E09A700A064DA /* Unknowable Up.txt in Resources */,
+				CE93075F0F9E09A700A064DA /* Warrior Up.txt in Resources */,
+				CE9307600F9E09A700A064DA /* Wholeness Up.txt in Resources */,
+				CE9308A00F9E3E1700A064DA /* Knowledge Tree.png in Resources */,
+				CE9308A30F9E425800A064DA /* test.png in Resources */,
+				CE9308A50F9E4D9F00A064DA /* The Book.png in Resources */,
+				CE9308A90F9E521100A064DA /* Odin.png in Resources */,
+				CE9308B10F9E5F0A00A064DA /* info.png in Resources */,
+				CE9308B90F9E655700A064DA /* RuneUsage.txt in Resources */,
+				CE9308C00F9E6AFC00A064DA /* Information.txt in Resources */,
+				CE9309A10F9E967200A064DA /* st3.aiff in Resources */,
+				CE9309B10F9F481600A064DA /* Default.png in Resources */,
+				CE9309F00F9F51CA00A064DA /* Desktop icon 57.png in Resources */,
+				CE930ACA0F9F6CEC00A064DA /* st1.aiff in Resources */,
+				CE930ACB0F9F6CEC00A064DA /* st2.aiff in Resources */,
+				CE930ACC0F9F6CEC00A064DA /* st4.aiff in Resources */,
+				CE930B140F9F8AD500A064DA /* Constraint RevSum.txt in Resources */,
+				CE930B150F9F8AD500A064DA /* Flow RevSum.txt in Resources */,
+				CE930B160F9F8AD500A064DA /* Gateway RevSum.txt in Resources */,
+				CE930B170F9F8AD500A064DA /* Growth RevSum.txt in Resources */,
+				CE930B180F9F8AD500A064DA /* Initiation RevSum.txt in Resources */,
+				CE930B190F9F8AD500A064DA /* Journey RevSum.txt in Resources */,
+				CE930B1A0F9F8AD500A064DA /* Joy RevSum.txt in Resources */,
+				CE930B1B0F9F8AD500A064DA /* Movement RevSum.txt in Resources */,
+				CE930B1C0F9F8AD500A064DA /* Opening RevSum.txt in Resources */,
+				CE930B1D0F9F8AD500A064DA /* Possessions RevSum.txt in Resources */,
+				CE930B1E0F9F8AD500A064DA /* Protection RevSum.txt in Resources */,
+				CE930B1F0F9F8AD500A064DA /* Retreat RevSum.txt in Resources */,
+				CE930B200F9F8AD500A064DA /* Signals RevSum.txt in Resources */,
+				CE930B210F9F8AD500A064DA /* Strength RevSum.txt in Resources */,
+				CE930B220F9F8AD500A064DA /* The Self RevSum.txt in Resources */,
+				CE930B230F9F8AD500A064DA /* Warrior RevSum.txt in Resources */,
+				CE930B240F9F8AD500A064DA /* Breakthrough UpSum.txt in Resources */,
+				CE930B250F9F8AD500A064DA /* Constraint UpSum.txt in Resources */,
+				CE930B260F9F8AD500A064DA /* Defence UpSum.txt in Resources */,
+				CE930B270F9F8AD500A064DA /* Disruption UpSum.txt in Resources */,
+				CE930B280F9F8AD500A064DA /* Fertility UpSum.txt in Resources */,
+				CE930B290F9F8AD500A064DA /* Flow UpSum.txt in Resources */,
+				CE930B2A0F9F8AD500A064DA /* Gateway UpSum.txt in Resources */,
+				CE930B2B0F9F8AD500A064DA /* Growth UpSum.txt in Resources */,
+				CE930B2C0F9F8AD500A064DA /* Harvest UpSum.txt in Resources */,
+				CE930B2D0F9F8AD500A064DA /* Initiation UpSum.txt in Resources */,
+				CE930B2E0F9F8AD500A064DA /* Journey UpSum.txt in Resources */,
+				CE930B2F0F9F8AD500A064DA /* Joy UpSum.txt in Resources */,
+				CE930B300F9F8AD500A064DA /* Movement UpSum.txt in Resources */,
+				CE930B310F9F8AD500A064DA /* Opening UpSum.txt in Resources */,
+				CE930B320F9F8AD500A064DA /* Partnership UpSum.txt in Resources */,
+				CE930B330F9F8AD500A064DA /* Possessions UpSum.txt in Resources */,
+				CE930B340F9F8AD500A064DA /* Protection UpSum.txt in Resources */,
+				CE930B350F9F8AD500A064DA /* Retreat UpSum.txt in Resources */,
+				CE930B360F9F8AD500A064DA /* Signals UpSum.txt in Resources */,
+				CE930B370F9F8AD500A064DA /* Standstill UpSum.txt in Resources */,
+				CE930B380F9F8AD500A064DA /* Strength UpSum.txt in Resources */,
+				CE930B390F9F8AD500A064DA /* The Self UpSum.txt in Resources */,
+				CE930B3A0F9F8AD500A064DA /* Unknowable UpSum.txt in Resources */,
+				CE930B3B0F9F8AD500A064DA /* Warrior UpSum.txt in Resources */,
+				CE930B3C0F9F8AD500A064DA /* Wholeness UpSum.txt in Resources */,
+				CE07FEB50FA2028F004FE5E0 /* Pouch.png in Resources */,
+				CE07FEC80FA24AA4004FE5E0 /* Pouch Highlight.png in Resources */,
+				CE8D33740FA377FB000EEF15 /* Pouch 50x70.png in Resources */,
+				CE8D33750FA377FB000EEF15 /* Pouch Highlight 50x70.png in Resources */,
+				CE2D25BF0FA4AAC300C9642B /* RuneClick.wav in Resources */,
+				CE2D25C40FA4AC2C00C9642B /* Shake.mp3 in Resources */,
+				CE2D25EF0FA4AD7B00C9642B /* RuneClick.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* RunemalAppDelegate.m in Sources */,
+				CEC1C4E30F99486D0009453B /* Constants.m in Sources */,
+				CEC1C4E40F99486D0009453B /* RuneDetailsPageController.m in Sources */,
+				CEC1C4E60F99486D0009453B /* RuneListCellViewController.m in Sources */,
+				CEC1C4E70F99486D0009453B /* RuneListDetailsController.m in Sources */,
+				CEC1C4E80F99486D0009453B /* RuneListViewController.m in Sources */,
+				CEC1C5260F9949980009453B /* Utility.m in Sources */,
+				CE4DA8F90F9A17C3009D14F3 /* RuneCastingController.m in Sources */,
+				CE4DA96E0F9A3377009D14F3 /* DragView.m in Sources */,
+				CE04F0260F9B992E00760398 /* RuneReadingsViewController.m in Sources */,
+				CE04F1B80F9BC5DC00760398 /* SwitchViewController.m in Sources */,
+				CE622A070F9CB3C700B2BD11 /* SwitchBoardViewController.m in Sources */,
+				CEE21F5F0F9CE84C00FDE557 /* PagingScrollViewController.m in Sources */,
+				CEE220A60F9D1EA700FDE557 /* SoundEffectsController.m in Sources */,
+				CE9308B50F9E64B700A064DA /* RuneUsageController.m in Sources */,
+				CE9308BE0F9E6A8100A064DA /* RunemalInformationController.m in Sources */,
+				CE8D33B50FA4948A000EEF15 /* BagShakeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Runemal_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = Runemal;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: VideoHooHaa";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Runemal_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = Runemal;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "09C75BC2-12EE-4DB3-AED9-BF98FA27D10E";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CEFAC65F0FA0887E009B7A3D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: VideoHooHaa";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "18BFCACF-AF3C-4AB1-9AFA-A46A7123357C";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		CEFAC6600FA0887E009B7A3D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: VideoHooHaa";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Runemal_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = Runemal;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "09C75BC2-12EE-4DB3-AED9-BF98FA27D10E";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Runemal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				CEFAC6600FA0887E009B7A3D /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Runemal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				CEFAC65F0FA0887E009B7A3D /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

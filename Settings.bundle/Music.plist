@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Title</key>
+	<string>Music Choices</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Ambiance</string>
+			<key>Key</key>
+			<string>Background_Music</string>
+			<key>DefaultValue</key>
+			<string>st1</string>
+			<key>Values</key>
+			<array>
+				<string>st1</string>
+				<string>st2</string>
+				<string>st3</string>
+				<string>st4</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>The Stars</string>
+				<string>Festival</string>
+				<string>Morning</string>
+				<string>The Glen</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

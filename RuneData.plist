@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>BaseDescription</key>
+		<string>The Self</string>
+		<key>Germanic</key>
+		<string>mannaz</string>
+		<key>OldEnglish</key>
+		<string>man</string>
+		<key>Letter</key>
+		<string>M</string>
+		<key>UprightDesc</key>
+		<string>The Self Up</string>
+		<key>ReversedDesc</key>
+		<string>The Self Rev</string>
+		<key>ShortDesc</key>
+		<string>The Self</string>
+		<key>Aettir</key>
+		<string>Tyr&apos;s Eight</string>
+		<key>Name</key>
+		<string>Mannaz</string>
+		<key>IconImagePath</key>
+		<string>Self.png</string>
+		<key>RuneImagePath</key>
+		<string>Self.png</string>
+		<key>UprightSumary</key>
+		<string>The Self UpSum</string>
+		<key>ReversedSumary</key>
+		<string>The Self RevSum</string>
+		<key>Revesable</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Partnership</string>
+		<key>Germanic</key>
+		<string>gebo</string>
+		<key>OldEnglish</key>
+		<string>gyfu</string>
+		<key>Letter</key>
+		<string>G</string>
+		<key>UprightDesc</key>
+		<string>Partnership Up</string>
+		<key>ReversedDesc</key>
+		<string>NoReverse</string>
+		<key>ShortDesc</key>
+		<string>Gebo a Gift</string>
+		<key>Aettir</key>
+		<string>Fryr&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Partnership.png</string>
+		<key>RuneImagePath</key>
+		<string>Partnership.png</string>
+		<key>UprightSumary</key>
+		<string>Partnership UpSum</string>
+		<key>ReversedSumary</key>
+		<string>NoReverse</string>
+		<key>Revesable</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Signals</string>
+		<key>Germanic</key>
+		<string>ansuz</string>
+		<key>OldEnglish</key>
+		<string>os</string>
+		<key>Letter</key>
+		<string>A</string>
+		<key>UprightDesc</key>
+		<string>Signals Up</string>
+		<key>ReversedDesc</key>
+		<string>Signals Rev</string>
+		<key>ShortDesc</key>
+		<string>Ansuz - Messanger Rune - The God Loki</string>
+		<key>Aettir</key>
+		<string>Fryr&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Signals.png</string>
+		<key>RuneImagePath</key>
+		<string>Signals.png</string>
+		<key>UprightSumary</key>
+		<string>Signals UpSum</string>
+		<key>ReversedSumary</key>
+		<string>Signals RevSum</string>
+		<key>Revesable</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Retreat</string>
+		<key>Germanic</key>
+		<string>dagaz</string>
+		<key>OldEnglish</key>
+		<string>daeg</string>
+		<key>Letter</key>
+		<string>D</string>
+		<key>UprightDesc</key>
+		<string>Retreat Up</string>
+		<key>ReversedDesc</key>
+		<string>Retreat Rev</string>
+		<key>ShortDesc</key>
+		<string>Othila - Retreat - Separation -Inheritance</string>
+		<key>Aettir</key>
+		<string>Tyr&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Retreat.png</string>
+		<key>RuneImagePath</key>
+		<string>Retreat.png</string>
+		<key>UprightSumary</key>
+		<string>Retreat UpSum</string>
+		<key>ReversedSumary</key>
+		<string>Retreat RevSum</string>
+		<key>Revesable</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Strength</string>
+		<key>Germanic</key>
+		<string>uruz</string>
+		<key>OldEnglish</key>
+		<string>ur</string>
+		<key>Letter</key>
+		<string>U</string>
+		<key>UprightDesc</key>
+		<string>Strength Up</string>
+		<key>ReversedDesc</key>
+		<string>Strength Rev</string>
+		<key>ShortDesc</key>
+		<string>Uruz - Manhood, Womanhood - A Wild Ox</string>
+		<key>Aettir</key>
+		<string>Fryr&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Strength.png</string>
+		<key>RuneImagePath</key>
+		<string>Strength.png</string>
+		<key>UprightSumary</key>
+		<string>Strength UpSum</string>
+		<key>ReversedSumary</key>
+		<string>Strength RevSum</string>
+		<key>Revesable</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Initiation</string>
+		<key>Germanic</key>
+		<string>perp</string>
+		<key>OldEnglish</key>
+		<string>peord</string>
+		<key>Letter</key>
+		<string>P</string>
+		<key>UprightDesc</key>
+		<string>Initiation Up</string>
+		<key>ReversedDesc</key>
+		<string>Initiation Rev</string>
+		<key>ShortDesc</key>
+		<string>Perth - Something Hidden - A Secret Matter</string>
+		<key>Aettir</key>
+		<string>Hagal&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Initiation.png</string>
+		<key>RuneImagePath</key>
+		<string>Initiation.png</string>
+		<key>UprightSumary</key>
+		<string>Initiation UpSum</string>
+		<key>ReversedSumary</key>
+		<string>Initiation RevSum</string>
+		<key>Revesable</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Constraint</string>
+		<key>Germanic</key>
+		<string>naupiz</string>
+		<key>OldEnglish</key>
+		<string>nyd</string>
+		<key>Letter</key>
+		<string>N</string>
+		<key>UprightDesc</key>
+		<string>Constraint Up</string>
+		<key>ReversedDesc</key>
+		<string>Constraint Rev</string>
+		<key>ShortDesc</key>
+		<string>Nauthiz: Necessity - Pain</string>
+		<key>Aettir</key>
+		<string>Hagal&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Constraint.png</string>
+		<key>RuneImagePath</key>
+		<string>Constraint.png</string>
+		<key>UprightSumary</key>
+		<string>Constraint UpSum</string>
+		<key>ReversedSumary</key>
+		<string>Constraint RevSum</string>
+		<key>Revesable</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Fertility</string>
+		<key>Germanic</key>
+		<string>inguz</string>
+		<key>OldEnglish</key>
+		<string>ing</string>
+		<key>Letter</key>
+		<string>ng</string>
+		<key>UprightDesc</key>
+		<string>Fertility Up</string>
+		<key>ReversedDesc</key>
+		<string>NoReverse</string>
+		<key>ShortDesc</key>
+		<string>Inguz: New Beginnings - The Hero God Ing</string>
+		<key>Aettir</key>
+		<string>Tyr&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Fertility.png</string>
+		<key>RuneImagePath</key>
+		<string>Fertility.png</string>
+		<key>UprightSumary</key>
+		<string>Fertility UpSum</string>
+		<key>ReversedSumary</key>
+		<string>NoReverse</string>
+		<key>Revesable</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Defence</string>
+		<key>Germanic</key>
+		<string>eihwaz</string>
+		<key>OldEnglish</key>
+		<string>eoh</string>
+		<key>Letter</key>
+		<string>ei</string>
+		<key>UprightDesc</key>
+		<string>Defence Up</string>
+		<key>ReversedDesc</key>
+		<string>NoReverse</string>
+		<key>ShortDesc</key>
+		<string>Eihwaz: Avertive Powers - Yew Tree</string>
+		<key>Aettir</key>
+		<string>Hagal&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Defence.png</string>
+		<key>RuneImagePath</key>
+		<string>Defence.png</string>
+		<key>UprightSumary</key>
+		<string>Defence UpSum</string>
+		<key>ReversedSumary</key>
+		<string>NoReverse</string>
+		<key>Revesable</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Protection</string>
+		<key>Germanic</key>
+		<string>algiz</string>
+		<key>OldEnglish</key>
+		<string>eolh-secg</string>
+		<key>Letter</key>
+		<string>Z</string>
+		<key>UprightDesc</key>
+		<string>Protection Up</string>
+		<key>ReversedDesc</key>
+		<string>Protection Rev</string>
+		<key>ShortDesc</key>
+		<string>Algiz: Sedge or Rushes - An Elk</string>
+		<key>Aettir</key>
+		<string>Hagal&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Protection.png</string>
+		<key>RuneImagePath</key>
+		<string>Protection.png</string>
+		<key>UprightSumary</key>
+		<string>Protection UpSum</string>
+		<key>ReversedSumary</key>
+		<string>Protection RevSum</string>
+		<key>Revesable</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Possessions</string>
+		<key>Germanic</key>
+		<string>fehu</string>
+		<key>OldEnglish</key>
+		<string>feoh</string>
+		<key>Letter</key>
+		<string>F</string>
+		<key>UprightDesc</key>
+		<string>Possessions Up</string>
+		<key>ReversedDesc</key>
+		<string>Possessions Rev</string>
+		<key>ShortDesc</key>
+		<string>Fehu: Nourishment - Cattle</string>
+		<key>Aettir</key>
+		<string>Fryr&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Possessions.png</string>
+		<key>RuneImagePath</key>
+		<string>Possessions.png</string>
+		<key>UprightSumary</key>
+		<string>Possessions UpSum</string>
+		<key>ReversedSumary</key>
+		<string>Possessions RevSum</string>
+		<key>Revesable</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Joy</string>
+		<key>Germanic</key>
+		<string>wunjo</string>
+		<key>OldEnglish</key>
+		<string>wyn</string>
+		<key>Letter</key>
+		<string>W</string>
+		<key>UprightDesc</key>
+		<string>Joy Up</string>
+		<key>ReversedDesc</key>
+		<string>Joy Rev</string>
+		<key>ShortDesc</key>
+		<string>Wunjo: Light</string>
+		<key>Aettir</key>
+		<string>Fryr&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Joy.png</string>
+		<key>RuneImagePath</key>
+		<string>Joy.png</string>
+		<key>UprightSumary</key>
+		<string>Joy UpSum</string>
+		<key>ReversedSumary</key>
+		<string>Joy RevSum</string>
+		<key>Revesable</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Harvest</string>
+		<key>Germanic</key>
+		<string>jera</string>
+		<key>OldEnglish</key>
+		<string>get</string>
+		<key>Letter</key>
+		<string>J</string>
+		<key>UprightDesc</key>
+		<string>Harvest Up</string>
+		<key>ReversedDesc</key>
+		<string>NoReverse</string>
+		<key>ShortDesc</key>
+		<string>Jera: Fertile Season - One Year</string>
+		<key>Aettir</key>
+		<string>Hagal&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Harvest.png</string>
+		<key>RuneImagePath</key>
+		<string>Harvest.png</string>
+		<key>UprightSumary</key>
+		<string>Harvest UpSum</string>
+		<key>ReversedSumary</key>
+		<string>NoReverse</string>
+		<key>Revesable</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Opening</string>
+		<key>Germanic</key>
+		<string>kaunaz</string>
+		<key>OldEnglish</key>
+		<string>cen</string>
+		<key>Letter</key>
+		<string>K</string>
+		<key>UprightDesc</key>
+		<string>Opening Up</string>
+		<key>ReversedDesc</key>
+		<string>Opening Rev</string>
+		<key>ShortDesc</key>
+		<string>Kano: Fire - Torch</string>
+		<key>Aettir</key>
+		<string>Fryr&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Opening.png</string>
+		<key>RuneImagePath</key>
+		<string>Opening.png</string>
+		<key>UprightSumary</key>
+		<string>Opening UpSum</string>
+		<key>ReversedSumary</key>
+		<string>Opening RevSum</string>
+		<key>Revesable</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Warrior</string>
+		<key>Germanic</key>
+		<string>teiwaz</string>
+		<key>OldEnglish</key>
+		<string>tir</string>
+		<key>Letter</key>
+		<string>T</string>
+		<key>UprightDesc</key>
+		<string>Warrior Up</string>
+		<key>ReversedDesc</key>
+		<string>Warrior Rev</string>
+		<key>ShortDesc</key>
+		<string>Teiwaz: Warrior Energy - The God Tiw</string>
+		<key>Aettir</key>
+		<string>Tyr&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Warrior.png</string>
+		<key>RuneImagePath</key>
+		<string>Warrior.png</string>
+		<key>UprightSumary</key>
+		<string>Warrior UpSum</string>
+		<key>ReversedSumary</key>
+		<string>Warrior RevSum</string>
+		<key>Revesable</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Growth</string>
+		<key>Germanic</key>
+		<string>berkana</string>
+		<key>OldEnglish</key>
+		<string>beorc</string>
+		<key>Letter</key>
+		<string>B</string>
+		<key>UprightDesc</key>
+		<string>Growth Up</string>
+		<key>ReversedDesc</key>
+		<string>Growth Rev</string>
+		<key>ShortDesc</key>
+		<string>Berkana: Rebirth - A Birch Tree</string>
+		<key>Aettir</key>
+		<string>Tyr&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Growth.png</string>
+		<key>RuneImagePath</key>
+		<string>Growth.png</string>
+		<key>UprightSumary</key>
+		<string>Growth UpSum</string>
+		<key>ReversedSumary</key>
+		<string>Growth RevSum</string>
+		<key>Revesable</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Movement</string>
+		<key>Germanic</key>
+		<string>ehwaz</string>
+		<key>OldEnglish</key>
+		<string>e(o)h</string>
+		<key>Letter</key>
+		<string>E</string>
+		<key>UprightDesc</key>
+		<string>Movement Up</string>
+		<key>ReversedDesc</key>
+		<string>Movement Rev</string>
+		<key>ShortDesc</key>
+		<string>Ehwaz: Progress - A Horse</string>
+		<key>Aettir</key>
+		<string>Tyr&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Movement.png</string>
+		<key>RuneImagePath</key>
+		<string>Movement.png</string>
+		<key>UprightSumary</key>
+		<string>Movement UpSum</string>
+		<key>ReversedSumary</key>
+		<string>Movement RevSum</string>
+		<key>Revesable</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Flow</string>
+		<key>Germanic</key>
+		<string>laguz</string>
+		<key>OldEnglish</key>
+		<string>lagu</string>
+		<key>Letter</key>
+		<string>L</string>
+		<key>UprightDesc</key>
+		<string>Flow Up</string>
+		<key>ReversedDesc</key>
+		<string>Flow Rev</string>
+		<key>ShortDesc</key>
+		<string>Laguz: Water - That Which Conducts</string>
+		<key>Aettir</key>
+		<string>Tyr&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Flow.png</string>
+		<key>RuneImagePath</key>
+		<string>Flow.png</string>
+		<key>UprightSumary</key>
+		<string>Flow UpSum</string>
+		<key>ReversedSumary</key>
+		<string>Flow RevSum</string>
+		<key>Revesable</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Disruption</string>
+		<key>Germanic</key>
+		<string>hagalaz</string>
+		<key>OldEnglish</key>
+		<string>haegl</string>
+		<key>Letter</key>
+		<string>H</string>
+		<key>ShortDesc</key>
+		<string>Hagalaz: Disruptive Natural Forces - Elemental Power</string>
+		<key>UprightDesc</key>
+		<string>Disruption Up</string>
+		<key>ReversedDesc</key>
+		<string>NoReverse</string>
+		<key>Aettir</key>
+		<string>Hagal&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Disruption.png</string>
+		<key>RuneImagePath</key>
+		<string>Disruption.png</string>
+		<key>UprightSumary</key>
+		<string>Disruption UpSum</string>
+		<key>ReversedSumary</key>
+		<string>NoReverse</string>
+		<key>Revesable</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Journey</string>
+		<key>Germanic</key>
+		<string>raido</string>
+		<key>OldEnglish</key>
+		<string>rad</string>
+		<key>Letter</key>
+		<string>R</string>
+		<key>UprightDesc</key>
+		<string>Journey Up</string>
+		<key>ReversedDesc</key>
+		<string>Journey Rev</string>
+		<key>ShortDesc</key>
+		<string>Raido: A Journey - Communication - Reunion</string>
+		<key>Aettir</key>
+		<string>Freyr&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Journey.png</string>
+		<key>RuneImagePath</key>
+		<string>Journey.png</string>
+		<key>UprightSumary</key>
+		<string>Journey UpSum</string>
+		<key>ReversedSumary</key>
+		<string>Journey RevSum</string>
+		<key>Revesable</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Gateway</string>
+		<key>Germanic</key>
+		<string>thurisaz</string>
+		<key>OldEnglish</key>
+		<string>thorn</string>
+		<key>Letter</key>
+		<string>TH</string>
+		<key>UprightDesc</key>
+		<string>Gateway Up</string>
+		<key>ReversedDesc</key>
+		<string>Gateway Rev</string>
+		<key>ShortDesc</key>
+		<string>Thurisaz: Place of Non-Action</string>
+		<key>Aettir</key>
+		<string>Freyr&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Gateway.png</string>
+		<key>RuneImagePath</key>
+		<string>Gateway.png</string>
+		<key>UprightSumary</key>
+		<string>Gateway UpSum</string>
+		<key>ReversedSumary</key>
+		<string>Gateway RevSum</string>
+		<key>Revesable</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Breakthrough</string>
+		<key>Germanic</key>
+		<string>opila</string>
+		<key>OldEnglish</key>
+		<string>epel</string>
+		<key>Letter</key>
+		<string>O</string>
+		<key>UprightDesc</key>
+		<string>Breakthrough Up</string>
+		<key>ReversedDesc</key>
+		<string>NoReverse</string>
+		<key>ShortDesc</key>
+		<string>Dagaz: Transformation - Day</string>
+		<key>Aettir</key>
+		<string>Tyr&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Breakthrough.png</string>
+		<key>RuneImagePath</key>
+		<string>Breakthrough.png</string>
+		<key>UprightSumary</key>
+		<string>Breakthrough UpSum</string>
+		<key>ReversedSumary</key>
+		<string>NoReverse</string>
+		<key>Revesable</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Standstill</string>
+		<key>Germanic</key>
+		<string>isa</string>
+		<key>OldEnglish</key>
+		<string>is</string>
+		<key>Letter</key>
+		<string>I</string>
+		<key>UprightDesc</key>
+		<string>Standstill Up</string>
+		<key>ReversedDesc</key>
+		<string>NoReverse</string>
+		<key>ShortDesc</key>
+		<string>Isa: That Which Impedes - Ice</string>
+		<key>Aettir</key>
+		<string>Hagal&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Standstill.png</string>
+		<key>RuneImagePath</key>
+		<string>Standstill.png</string>
+		<key>UprightSumary</key>
+		<string>Standstill UpSum</string>
+		<key>ReversedSumary</key>
+		<string>NoReverse</string>
+		<key>Revesable</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>Wholeness</string>
+		<key>Germanic</key>
+		<string>sowelu</string>
+		<key>OldEnglish</key>
+		<string>sigel</string>
+		<key>Letter</key>
+		<string>S</string>
+		<key>UprightDesc</key>
+		<string>Wholeness Up</string>
+		<key>ReversedDesc</key>
+		<string>NoReverse</string>
+		<key>ShortDesc</key>
+		<string>Sowelu: Wholeness - Life Forces - The Sun&apos;s Energy</string>
+		<key>Aettir</key>
+		<string>Hagal&apos;s Eight</string>
+		<key>IconImagePath</key>
+		<string>Wholeness.png</string>
+		<key>RuneImagePath</key>
+		<string>Wholeness.png</string>
+		<key>UprightSumary</key>
+		<string>Wholeness UpSum</string>
+		<key>ReversedSumary</key>
+		<string>NoReverse</string>
+		<key>Revesable</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>BaseDescription</key>
+		<string>The Unknowable</string>
+		<key>Germanic</key>
+		<string>Odin</string>
+		<key>OldEnglish</key>
+		<string>Odin</string>
+		<key>Letter</key>
+		<string></string>
+		<key>UprightDesc</key>
+		<string>Unknowable Up</string>
+		<key>ReversedDesc</key>
+		<string>NoReverse</string>
+		<key>ShortDesc</key>
+		<string>Odin: The Blank Rune</string>
+		<key>Aettir</key>
+		<string></string>
+		<key>IconImagePath</key>
+		<string>Unknown.png</string>
+		<key>RuneImagePath</key>
+		<string>Unknown.png</string>
+		<key>UprightSumary</key>
+		<string>Unknowable UpSum</string>
+		<key>ReversedSumary</key>
+		<string>NoReverse</string>
+		<key>Revesable</key>
+		<string>0</string>
+	</dict>
+</array>
+</plist>
